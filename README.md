@@ -19,7 +19,7 @@ Por ejemplo, en **HTML**:
 
 `<p>Este es un párrafo <span id="especial">con un segmento de identidad especial</span> y un <a href="https://www.google.cl/">vínculo a Google</a></p>`. 
 
-Acá la memoria les ayudará a decir que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `anchor` y `href` es `hypertext reference`. Hay muchísimo más por memorizar, pero hay "herramientas externas" que pueden ayucarles: como [un *torpedo* o *cheat sheet* de HTML5](https://websitesetup.org/HTML5-cheat-sheet.pdf), o confiando en lo que va mostrándote como opciones el software de edición de código.
+Acá la memoria les ayudará a decir que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `anchor` y `href` es `hypertext reference`. Hay muchísimo más por memorizar, pero hay "herramientas externas" que pueden ayucarles: como [un *torpedo* o *cheat sheet* de HTML5](https://websitesetup.org/HTML5-cheat-sheet.pdf).
 
 Otro ejemplo, en **CSS**:
 
