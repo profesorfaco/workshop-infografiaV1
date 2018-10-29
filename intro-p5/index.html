@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!--un documento html tiene dos partes-->
+<html>
+	<!--una parte es la cabeza-->
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Hola!</title>
+	<style>
+		body{padding:3rem; font-family: Helvetica, Arial, sans-serif;}
+	</style>
+	</head>
+	<body>
+<h1>¿Está temblando?</h1>
+<div id="here"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+<script>
+var earthquakes;
+var n;
+function preload() {
+	earthquakes = loadJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson');
+}
+function setup() {
+	n = earthquakes.features.length;
+	console.log(earthquakes);
+	var canvas = createCanvas(windowWidth, windowHeight);
+	canvas.position(0,0);
+	canvas.style('z-index','-1')
+	noLoop();
+}
+
+function draw() {
+	for(var x = 0; x < n; x++){
+		var magnitud = earthquakes.features[x].properties.mag;
+		var d = map(magnitud, 4.5, 9.5, 2, width/(n+1));
+		var porcion = width/(n+1)*(x+1);
+		fill(100);
+		noStroke();
+		ellipse(porcion, height/1.5, d, d);
+		fill(200,55);
+		ellipse(porcion, height/1.5, width/(n+1), width/(n+1));
+		fill(0);
+		rectMode(CENTER);
+		textAlign(CENTER);
+		var txt = earthquakes.features[x].properties.mag;
+		text(txt, porcion+2,height/1.8, 20, 20);
+		var lugar = earthquakes.features[x].properties.place;
+		text(lugar, porcion+2,height*0.85, 50, width/(n+1));
+	}
+}
+</script>
+</body>
+</html>
