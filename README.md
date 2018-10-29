@@ -14,7 +14,7 @@ Los dos primeros nos pueden exigir mucha memoria, mientras que el tercero exijir
 
 -------
 
-**¿Por qué podrían exigir la menoria?** Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo, sirven para describir o programar distintas cosas.
+**¿Por qué podrían exigir memoria?** Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo, sirven para describir o programar distintas cosas.
 
 Por ejemplo, en **HTML**: 
 
@@ -26,19 +26,19 @@ Otro ejemplo, en **CSS**:
 
 `p{font-family:Helvetica, sans-serif;} span#especial {font-weight:800;} a{color:#f00;} `
 
-Acá notarán que antes del paréntesis de llave hay una referencia al HTML ya presentado, dentro de los mismos paréntesis dice `font-family` para definir la familia de fuente tipográfica que debe usarse en el elemento referido, `font-weight` se usa para definir peso de la fuente, y `color` se usa para definir color (del texto). En este caso también se pueden usar herramientas externas para "memorizar": [CSS3 cheat sheet](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf) 
+Acá notarán que antes del paréntesis de llave hay una referencia al HTML ya presentado, y dentro de los paréntesis dice `font-family: …` para definir la familia de fuente tipográfica que debe usarse en el elemento referido, `font-weight: …` se usa para definir peso de la fuente, y `color: …` se usa para definir color (del texto). En este caso también se pueden usar herramientas externas para "memorizar": [CSS3 cheat sheet](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf) 
 
 Un último ejemplo, en **JS**:
 
 `console.log(Math.round(Math.PI))`
 
-En este ejemplo tenemos que aprovechar lo aprendido en álgebra y en aritmética: los paréntesis indican que las operaciones que ellos encierran tienen prioridad ante las demás. O sea, lo primero es explicar que `Math.PI` me entrega el número π, número que necesito redondeado (`Math.round`) para luego imprimirlo en la consolta de JavaScript de navegador (`console.log`). Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsheet.com/js/).
+En este ejemplo tenemos que aprovechar lo aprendido en álgebra y aritmética: los paréntesis indican que las operaciones que ellos encierran tienen prioridad ante las demás. O sea, lo primero es explicar que `Math.PI` me entrega el número π, número que necesito redondeado (`Math.round`) para luego imprimirlo en la consolta de JavaScript de navegador (`console.log`). Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsheet.com/js/).
 
 -------
 
-**¿Y por qué podrían exigir la lógica?** Porque programar es escribir un conjunto ordenado y finito de operaciones que permiten hacer algo. Y ya pudieron notar que en el ejemplo anterior aparecieron los "fantasmas" de álgebra y aritmética. 
+**¿Y por qué podrían exigir lógica?** Porque programar es escribir, en cierto lenguaje, un conjunto ordenado y finito de operaciones que permiten hacer algo.
 
-Ahora pongamos un ejemplo de JS, el único que será necesario cuando este sí es un lenguaje de programación, mientras HTML y CSS sólo son lenguajes descriptivos:
+Ahora pongamos un ejemplo de JS, el único que será necesario cuando es el único lenguaje de programación entre los tres que se presentan como claves en la producción de infografías para soporte digital en línea. 
 
 ```
 var d = new Date();
