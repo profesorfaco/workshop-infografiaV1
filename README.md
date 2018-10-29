@@ -14,21 +14,21 @@ Los dos primeros nos pueden exigir mucha memoria, mientras que el tercero exijir
 
 -------
 
-**¿Por qué podrían exigir la menoria?** Porque distintas siglas, abreviaciones y palabras sirven para describir o programar distintas cosas.   
+**¿Por qué podrían exigir la menoria?** Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo, sirven para describir o programar distintas cosas.
 
-Por ejemplo, en `HTML`: 
+Por ejemplo, en **HTML**: 
 
 `<p>Este es un párrafo <span id="especial">con un segmento de identidad especial</span> y un <a href="https://www.google.cl/">vínculo a Google</a></p>`. 
 
 Acá tienen que recordar que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `archor` y `href` es `hypertext reference`. Pero siempre se puede contar con herramientas para externas para "memorizar"; [un "torpedo" o "cheat sheet" de HTML5 puede ayudar](https://websitesetup.org/HTML5-cheat-sheet.pdf). 
 
-Otro ejemplo, en `CSS`:
+Otro ejemplo, en **CSS**:
 
 `p{font-family:Helvetica, sans-serif;} span#especial {font-weight:800;} a{color:#f00;} `
 
 Acá notarán que antes del paréntesis de llave hay una referencia al HTML ya presentado, dentro de los mismos paréntesis dice `font-family` para definir la familia de fuente tipográfica que debe usarse en el elemento referido, `font-weight` se usa para definir peso de la fuente, y `color` se usa para definir color (del texto). En este caso también se pueden usar herramientas externas para "memorizar": [CSS3 cheat sheet](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf) 
 
-Un último ejemplo, en `JS`:
+Un último ejemplo, en **JS**:
 
 `console.log(Math.round(Math.PI))`
 
