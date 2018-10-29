@@ -8,31 +8,29 @@
 - CSS
 - JavaScript (JS)
 
-Los dos primeros son "lenguajes de descripción", mientras que el tercero es un lenguaje de programación. 
-
-Los dos primeros nos pueden exigir mucha memoria, mientras que el tercero exijirá, además de memoria, mucha lógica.
+Los dos primeros son "lenguajes de descripción", mientras que el tercero es un lenguaje de programación. Los dos primeros nos pueden exigir mucha memorización, mientras que el tercero exigirá, además, mucha lógica.
 
 -------
 
-**¿Por qué podrían exigir memoria?** Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo, sirven para describir o programar distintas cosas.
+**¿Por qué podrían exigir memorización?** Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo, sirven para describir o programar determinadas cosas.
 
 Por ejemplo, en **HTML**: 
 
 `<p>Este es un párrafo <span id="especial">con un segmento de identidad especial</span> y un <a href="https://www.google.cl/">vínculo a Google</a></p>`. 
 
-Acá tienen que recordar que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `archor` y `href` es `hypertext reference`. Pero siempre se puede contar con herramientas para externas para "memorizar"; [un "torpedo" o "cheat sheet" de HTML5 puede ayudar](https://websitesetup.org/HTML5-cheat-sheet.pdf). 
+Acá tienen que memorizar que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `anchor` y `href` es `hypertext reference`. Pero siempre se puede contar con "herramientas para memorizar", como [un "torpedo" o "cheat sheet" de HTML5](https://websitesetup.org/HTML5-cheat-sheet.pdf), o confiando en lo que va mostrándote como opciones el software de edición de código.
 
 Otro ejemplo, en **CSS**:
 
 `p{font-family:Helvetica, sans-serif;} span#especial {font-weight:800;} a{color:#f00;} `
 
-Acá notarán que antes del paréntesis de llave hay una referencia al HTML ya presentado, y dentro de los paréntesis dice `font-family: …` para definir la familia de fuente tipográfica que debe usarse en el elemento referido, `font-weight: …` se usa para definir peso de la fuente, y `color: …` se usa para definir color (del texto). En este caso también se pueden usar herramientas externas para "memorizar": [CSS3 cheat sheet](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf) 
+Acá notarán que antes de cada paréntesis de llave hay referencias al ejemplo ya presentado (HTML). Dentro de los paréntesis dice `font-family: …` para definir la familia de fuente tipográfica que debe usarse en el elemento referido, `font-weight: …` para definir peso de la fuente, y `color: …` para definir color (del texto). En este caso también se pueden usar "herramientas para memorizar": [CSS3 cheat sheet](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf) 
 
 Un último ejemplo, en **JS**:
 
 `console.log(Math.round(Math.PI))`
 
-En este ejemplo tenemos que aprovechar lo aprendido en álgebra y aritmética: los paréntesis indican que las operaciones que ellos encierran tienen prioridad ante las demás. O sea, lo primero es explicar que `Math.PI` me entrega el número π, número que necesito redondeado (`Math.round`) para luego imprimirlo en la consolta de JavaScript de navegador (`console.log`). Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsheet.com/js/).
+En este ejemplo tenemos que aprovechar lo aprendido en álgebra y aritmética: los paréntesis indican que las operaciones que ellos encierran tienen prioridad ante las demás. O sea, lo primero es explicar que `Math.PI` me entrega el número π, número que necesito redondeado (`Math.round`) para luego imprimirlo en la [consola de JavaScript de navegador](https://norfipc.com/inf/como-usar-consola-javascript-navegador-web.php) (`console.log`). Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsheet.com/js/).
 
 -------
 
@@ -54,8 +52,16 @@ if ((h >= 6) && (h < 12)) {
 document.write(saludo);
 ```
 
-Se crea una variable `d`, a la que se le asigna el valor de la fecha en la que se carga el documento (considerando hasta el segundo). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, sin asignarle valor.
+Se crea una variable `d`, a la que se le asigna el valor de la fecha en la que se carga la página web (considerando hasta horas, minutos y segundos). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, sin asignarle valor.
 
-Luego vienen unas condiciones (`if (…){…}`, `else if (…){…}`, `else{…}`) en donde se le asigna a la variable `saludo` el valor que corresponda a la hora del día en que se cargue el documento. 
+Luego vienen unas condiciones (`if (…){…}`, `else if (…){…}`, `else{…}`) en donde se le asigna a la variable `saludo` el valor que corresponda a la hora en que se cargue el documento. 
 
-Finalmente, se indica que en el mismo documento cargado se debe escribir el valor de `saludo`, que será el mensaje que corresponda a la hora.
+Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](https://www.w3schools.com/js/js_htmldom.asp)) de la página web ya cargada.
+
+-----------
+
+Como el objetivo es reconocer y utilizar estos languajes, la clase será práctica-teórica. 
+
+En este repositorio podrán encontrar documentos que nos ayudarán en la práctica y un wiki con el que podrán reforzar lo teórico. 
+
+Todo está redactado por Felipe Cortez, alias [FACO](http://profesor.faco.cl/), a quien pueden escribir a profesor@faco.cl
