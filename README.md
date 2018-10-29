@@ -57,7 +57,7 @@ if ((h >= 6) && (h < 12)) {
 document.write(saludo);
 ```
 
-En el ejemplo de JS se crea una variable `d`, a la que se le asigna el valor de la fecha en que se carga la página web (considerando hasta horas, minutos y segundos). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, sin asignarle valor.
+En el ejemplo de JS se crea una variable `d`, a la que se le asigna el valor de la fecha en la que [el cliente](https://es.wikipedia.org/wiki/Lado_del_cliente) carga la página web (considerando hasta los segundos). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, sin asignarle valor.
 
 Con las [condiciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) (`if (…){…}`, `else if (…){…}`, `else{…}`) se le asigna a la variable `saludo` el valor que corresponda a la hora en que se carga la página web. 
 
