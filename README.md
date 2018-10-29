@@ -56,7 +56,7 @@ Se crea una variable `d`, a la que se le asigna el valor de la fecha en la que s
 
 Luego vienen unas condiciones (`if (…){…}`, `else if (…){…}`, `else{…}`) en donde se le asigna a la variable `saludo` el valor que corresponda a la hora en que se cargue el documento. 
 
-Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](https://www.w3schools.com/js/js_htmldom.asp)) de la página web ya cargada.
+Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](https://www.w3schools.com/js/js_htmldom.asp) de la página web ya cargada.
 
 -----------
 
