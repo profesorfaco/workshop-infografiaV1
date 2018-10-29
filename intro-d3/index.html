@@ -10,15 +10,13 @@
 </style>
 </head>
 <body>
-<div class="principal">
 <h1></h1>
 <p>Acá tenemos un texto que puede servir de introducción al asunto que se despliega más abajo, en un gráfico producido con d3.js</p>
 <p>Los datos que se despliegan a continuación son obtenidos mediante consulta efectuada el <span id="timestring"></span> a la API de <a href="http://mindicador.cl/">mindicador</a></p>
-<!--Lo que sigue es algo de programación con JavaScript-->
 <script>
-var tiempo = Date.now();
-var fecha = new Date();
-document.getElementById("timestring").innerHTML = fecha;
+	var tiempo = Date.now();
+	var fecha = new Date();
+	document.getElementById("timestring").innerHTML = fecha;
 </script>
 <!--Lo que sigue es algo de d3, una biblioteca de JavaScript-->
 <script src="https://d3js.org/d3.v5.min.js"></script>
