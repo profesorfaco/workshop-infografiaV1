@@ -5,9 +5,9 @@
 
 **Nuestro objetivo**: Reconocer y utilizar los lenguajes que, en la actualidad, son claves en la producción de infografías para soporte digital en línea. Estos lenguajes son: 
 
-- HTML
-- CSS
-- JavaScript (JS)
+- [HTML](https://github.com/profesorfaco/infografia/wiki/HTML)
+- [CSS](https://github.com/profesorfaco/infografia/wiki/CSS)
+- [JavaScript (JS)](https://github.com/profesorfaco/infografia/wiki/JS)
 
 Los dos primeros son "lenguajes de descripción", mientras que el tercero es un lenguaje de programación. Los dos primeros nos pueden exigir mucha memorización, mientras que el tercero exigirá, además, mucha lógica.
 
@@ -41,7 +41,7 @@ Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsh
 
 **¿Y por qué podrían exigir lógica?** Porque programar es escribir, en cierto lenguaje, un conjunto ordenado y finito de operaciones que permiten hacer algo.
 
-Ahora pongamos un ejemplo de JS, el único que será necesario cuando es el único lenguaje de programación entre los tres que se presentan como claves en la producción de infografías para soporte digital en línea. 
+Ahora pongamos un ejemplo de JS, el único que será necesario al referirnos a la lógica, cuando es el único lenguaje de programación entre los tres que se presentan como claves en la producción de infografías para soporte digital en línea. 
 
 ```
 var d = new Date();
@@ -57,16 +57,16 @@ if ((h >= 6) && (h < 12)) {
 document.write(saludo);
 ```
 
-En el ejemplo de JS se crea una variable `d`, a la que se le asigna el valor de la fecha en la que [el cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) carga la página web (considerando hasta los segundos). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, sin asignarle valor.
+En el ejemplo de JS [se crea una variable](https://github.com/profesorfaco/infografia/wiki/JS-:-variables) `d`, a la que se le asigna almacenar el dato de la fecha en la que [el cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) carga la página web (considerando hasta los segundos). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, y no se le asigna dato para almacenar de forma inmediata.
 
-Con las [condiciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) (`if (…){…}`, `else if (…){…}`, `else{…}`) se le asigna a la variable `saludo` el valor que corresponda a la hora en que se carga la página web. 
+Mediante [condiciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) (`if (…){…}`, `else if (…){…}`, `else{…}`) se le asigna a la variable `saludo` almacenar la cadena de caracteres que corresponda a la hora en que se carga la página web. 
 
 Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](https://www.w3schools.com/js/js_htmldom.asp) de la página web ya cargada.
 
 -----------
 
-**Como el objetivo es reconocer y utilizar tres languajes (HTML, CSS, JS), este módulo será práctico-teórico; en este repositorio podrán encontrar documentos que aportarán a la práctica y [un wiki](https://github.com/profesorfaco/infografia/wiki) que refozará lo teórico.** 
+**Como el objetivo es reconocer y utilizar tres languajes ([HTML](https://github.com/profesorfaco/infografia/wiki/HTML), [CSS](https://github.com/profesorfaco/infografia/wiki/CSS), [JS](https://github.com/profesorfaco/infografia/wiki/JS)), este módulo será práctico-teórico; en este repositorio podrán encontrar documentos que facilitarán la práctica y [un wiki](https://github.com/profesorfaco/infografia/wiki) que reforzará lo teórico.** 
 
-Todo lo que encuentras en este repositorio es redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/).
+Todo lo que encuentras en este repositorio es redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/). De antemano, se agradecen las correcciones.
 
 profesor@faco.cl
