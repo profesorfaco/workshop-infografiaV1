@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>d3.js</title>
+<style>
+	body{padding:3rem; font-family: Helvetica, Arial, sans-serif;}
+	span{color:gray;}
+</style>
+</head>
+<body>
+<div class="principal">
+<h1></h1>
+<p>Acá tenemos un texto que puede servir de introducción al asunto que se despliega más abajo, en un gráfico producido con d3.js</p>
+<p>Los datos que se despliegan a continuación son obtenidos mediante consulta efectuada el <span id="timestring"></span> a la API de <a href="http://mindicador.cl/">mindicador</a></p>
+<!--Lo que sigue es algo de programación con JavaScript-->
+<script>
+var tiempo = Date.now();
+var fecha = new Date();
+document.getElementById("timestring").innerHTML = fecha;
+</script>
+<!--Lo que sigue es algo de d3, una biblioteca de JavaScript-->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>        
+	var w = 980, h = 500, f = 0.5, p=1;
+	d3.json("https://mindicador.cl/api/euro").then(function(data) {
+	document.getElementsByTagName('h1')[0].innerHTML = data.nombre;
+	var precios = d3.values(data.serie);
+	console.log(precios);
+	var svg = d3.select("body")
+	.append("svg")
+	.attr("width", w)
+	.attr("height", h)
+	.style("background","#EEEEEE");
+	svg.selectAll("rect")
+	.data(precios)
+	.enter()
+	.append("rect")
+	.attr("x", function(d, i) {
+		return i * (w / precios.length);
+	})
+	.attr("y", function(d) {
+		return h - (d.valor * f);
+	})
+	.attr("width", w / precios.length - p)
+	.attr("height", function(d) {
+		return d.valor * f;
+	})
+	.attr("fill", function(d) {
+		return "rgb(0, 0, " + (d.valor * f) + ")";
+	});
+	svg.selectAll("text")
+	.data(precios)
+	.enter()
+	.append("text")
+	.text(function(d) {
+		return Math.round(d.valor);
+	})
+	.attr("text-anchor", "middle")
+	.attr("x", function(d, i) {
+		return i * (w / precios.length) + (w / precios.length - p) / 2;
+	})
+	.attr("y", function(d) {
+		return h - (d.valor * f)+20;
+	})
+	.attr("font-family", "sans-serif")
+	.attr("font-size", "11px")
+	.attr("fill", "white");      
+	})
+</script>
+</body>
+</html>
