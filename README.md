@@ -63,4 +63,6 @@ Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](
 
 Como el objetivo es reconocer y utilizar estos languajes (HTML, CSS, JS), la clase será práctica-teórica; en este repositorio podrán encontrar documentos que aportarán a la práctica y un wiki que refozará lo teórico. 
 
-Todo lo que encuentras en este repositorio fue redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/), a quien pueden contactar con el correo: profesor@faco.cl
+Todo lo que encuentras en este repositorio fue redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/)
+
+profesor@faco.cl
