@@ -65,7 +65,7 @@ Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](
 
 -----------
 
-Como el objetivo es reconocer y utilizar tres languajes (HTML, CSS, JS), este módulo será práctico-teórico; en este repositorio podrán encontrar documentos que aportarán a la práctica y [un wiki](https://github.com/profesorfaco/infografia/wiki) que refozará lo teórico. 
+**Como el objetivo es reconocer y utilizar tres languajes (HTML, CSS, JS), este módulo será práctico-teórico; en este repositorio podrán encontrar documentos que aportarán a la práctica y [un wiki](https://github.com/profesorfaco/infografia/wiki) que refozará lo teórico.** 
 
 Todo lo que encuentras en este repositorio es redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/).
 
