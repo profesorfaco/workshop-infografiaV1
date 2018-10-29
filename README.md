@@ -3,7 +3,7 @@
 
 ### MÓDULO WEB
 
-**Nuestro objetivo**: Reconocer y utilizar los lenguajes que, en la actualidad, son claves en la producción de infografías para soporte digital en línea. Estos lenguajes son: 
+**El objetivo**: Reconocer y utilizar los lenguajes que, en la actualidad, son claves en la producción de infografías para soporte digital en línea. Estos lenguajes son: 
 
 - [HTML](https://github.com/profesorfaco/infografia/wiki/HTML)
 - [CSS](https://github.com/profesorfaco/infografia/wiki/CSS)
@@ -21,13 +21,13 @@ Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo
 
 `<p>Este es un párrafo <span id="especial">con un segmento de identidad especial</span> y un <a href="https://www.google.cl/">vínculo a Google</a></p>`. 
 
-Acá la memoria les ayudará a decir que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `anchor` y `href` es `hypertext reference`. Hay muchísimo más por memorizar, pero hay "herramientas externas" que pueden ayucarles: como [un *torpedo* o *cheat sheet* de HTML5](https://websitesetup.org/HTML5-cheat-sheet.pdf).
+Acá la memoria les puede ayudar a decir que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `anchor` y `href` es `hypertext reference`. Hay muchísimo más por memorizar, pero hay "herramientas externas" que pueden ayucar: como [un *torpedo* o *cheat sheet* de HTML5](https://websitesetup.org/HTML5-cheat-sheet.pdf).
 
 **Otro ejemplo, en CSS**:
 
 `p{font-family:Helvetica, sans-serif;} span#especial {font-weight:800;} a{color:#f00;} `
 
-Acá notarán que antes de cada paréntesis de llave hay referencias al ejemplo ya presentado (HTML). Dentro de los paréntesis dice `font-family: …` para definir la familia de fuente tipográfica que debe usarse en el elemento referido, `font-weight: …` para definir peso de la fuente, y `color: …` para definir color (del [hiper]texto). 
+Acá pueden notar que antes de cada paréntesis de llave hay referencias al ejemplo ya presentado (HTML). Dentro de los paréntesis dice `font-family: …` para definir la familia de fuente tipográfica que debe usarse en el elemento referido, `font-weight: …` para definir peso de la fuente, y `color: …` para definir color (del [hiper]texto). 
 
 En este caso también se pueden usar "herramientas para memorizar": [CSS3 cheat sheet](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf) 
 
@@ -35,7 +35,7 @@ En este caso también se pueden usar "herramientas para memorizar": [CSS3 cheat 
 
 `console.log(Math.round(Math.PI))`
 
-En este ejemplo tenemos que aprovechar lo aprendido en álgebra y aritmética: los paréntesis indican que las operaciones que ellos encierran tienen prioridad ante las demás. O sea, lo primero es explicar que `Math.PI` me entrega el número π, número que necesito redondeado (`Math.round`) para luego imprimirlo en la [consola de JavaScript de navegador](https://norfipc.com/inf/como-usar-consola-javascript-navegador-web.php) (`console.log`). 
+En este ejemplo pueden aprovechar lo aprendido en álgebra y aritmética: los paréntesis indican que las operaciones que ellos encierran tienen prioridad ante las demás. O sea, lo primero es explicar que `Math.PI` entrega el número π, número que se redondea (`Math.round`) para luego imprimirlo en la [consola de JavaScript de navegador](https://norfipc.com/inf/como-usar-consola-javascript-navegador-web.php) (`console.log`). 
 
 Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsheet.com/js/).
 
@@ -45,7 +45,7 @@ Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsh
 
 Porque programar es escribir, en cierto lenguaje, un conjunto ordenado y finito de operaciones que permiten hacer algo.
 
-**Ahora revisemos un ejemplo de JS, el único que será necesario al referirnos a la lógica, cuando es el único lenguaje de programación entre los tres** que se presentan como claves en la producción de infografías para soporte digital en línea. 
+**Revisemos un ejemplo de JS, el único que será necesario al referirnos a la lógica, cuando es el único lenguaje de programación entre los tres** que se presentan como claves en la producción de infografías para soporte digital en línea. 
 
 ```
 var d = new Date();
@@ -71,6 +71,6 @@ Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](
 
 **Como el objetivo es reconocer y utilizar tres languajes ([HTML](https://github.com/profesorfaco/infografia/wiki/HTML), [CSS](https://github.com/profesorfaco/infografia/wiki/CSS), [JS](https://github.com/profesorfaco/infografia/wiki/JS)), este módulo será práctico-teórico; en este repositorio podrán encontrar documentos que facilitarán la práctica y [un wiki](https://github.com/profesorfaco/infografia/wiki) que reforzará lo teórico.** 
 
-Todo lo que encuentras en este repositorio es redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/), Profesor Adjunto de la Universidad de Chile y Profesor Asistente Adjunto de la Pontificia Universidad Católica de Chile.
+Todo lo que encuentren en este repositorio es redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/), Profesor Adjunto de la Universidad de Chile y Profesor Asistente Adjunto de la Pontificia Universidad Católica de Chile.
 
 profesor@faco.cl
