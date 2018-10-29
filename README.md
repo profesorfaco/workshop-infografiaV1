@@ -1,5 +1,5 @@
 # Diplomado de infografia
-#### Escuela de Diseño / Pontificia Universidad Católica de Chile / 2018
+### Escuela de Diseño / Pontificia Universidad Católica de Chile / 2018
 
 ### MÓDULO WEB
 
@@ -13,15 +13,17 @@ Los dos primeros son "lenguajes de descripción", mientras que el tercero es un 
 
 -------
 
-**¿Por qué podrían exigir memorización?** Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo, sirven para describir o programar determinadas cosas.
+#### ¿Por qué podrían exigir memorización? 
 
-Por ejemplo, en **HTML**: 
+Porque determinadas siglas, abreviaciones y palabras, escritas de un único modo, sirven para describir o programar determinadas cosas.
+
+**Un ejemplo, en HTML**: 
 
 `<p>Este es un párrafo <span id="especial">con un segmento de identidad especial</span> y un <a href="https://www.google.cl/">vínculo a Google</a></p>`. 
 
 Acá la memoria les ayudará a decir que `p` es `paragraph`, `span` es un segmento (o lapsus), `id` es `identity`, `a` es `anchor` y `href` es `hypertext reference`. Hay muchísimo más por memorizar, pero hay "herramientas externas" que pueden ayucarles: como [un *torpedo* o *cheat sheet* de HTML5](https://websitesetup.org/HTML5-cheat-sheet.pdf).
 
-Otro ejemplo, en **CSS**:
+**Otro ejemplo, en CSS**:
 
 `p{font-family:Helvetica, sans-serif;} span#especial {font-weight:800;} a{color:#f00;} `
 
@@ -29,7 +31,7 @@ Acá notarán que antes de cada paréntesis de llave hay referencias al ejemplo 
 
 En este caso también se pueden usar "herramientas para memorizar": [CSS3 cheat sheet](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf) 
 
-Un último ejemplo, en **JS**:
+**Y un último ejemplo, en JS**:
 
 `console.log(Math.round(Math.PI))`
 
@@ -39,9 +41,11 @@ Acá los [torpedos o *cheat sheets* deben ser más extensos](https://htmlcheatsh
 
 -------
 
-**¿Y por qué podrían exigir lógica?** Porque programar es escribir, en cierto lenguaje, un conjunto ordenado y finito de operaciones que permiten hacer algo.
+#### ¿Y por qué podrían exigir lógica? 
 
-Ahora pongamos un ejemplo de JS, el único que será necesario al referirnos a la lógica, cuando es el único lenguaje de programación entre los tres que se presentan como claves en la producción de infografías para soporte digital en línea. 
+Porque programar es escribir, en cierto lenguaje, un conjunto ordenado y finito de operaciones que permiten hacer algo.
+
+**Ahora revisemos un ejemplo de JS, el único que será necesario al referirnos a la lógica, cuando es el único lenguaje de programación entre los tres** que se presentan como claves en la producción de infografías para soporte digital en línea. 
 
 ```
 var d = new Date();
@@ -57,7 +61,7 @@ if ((h >= 6) && (h < 12)) {
 document.write(saludo);
 ```
 
-En el ejemplo de JS [se crea una variable](https://github.com/profesorfaco/infografia/wiki/JS-:-variables) `d`, a la que se le asigna almacenar el dato de la fecha en la que [el cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) carga la página web (considerando hasta los segundos). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, y no se le asigna dato para almacenar de forma inmediata.
+En el ejemplo [se crea una variable](https://github.com/profesorfaco/infografia/wiki/JS-:-variables) `d`, a la que se le asigna almacenar el dato de la fecha en la que [el cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) carga la página web (considerando hasta los segundos). Luego, a una variable `h` se le asigna solo la hora en esa fecha. Después se crea una variable con el nombre `saludo`, y no se le asigna dato para almacenar de forma inmediata.
 
 Mediante [condiciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) (`if (…){…}`, `else if (…){…}`, `else{…}`) se le asigna a la variable `saludo` almacenar la cadena de caracteres que corresponda a la hora en que se carga la página web. 
 
@@ -67,6 +71,6 @@ Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](
 
 **Como el objetivo es reconocer y utilizar tres languajes ([HTML](https://github.com/profesorfaco/infografia/wiki/HTML), [CSS](https://github.com/profesorfaco/infografia/wiki/CSS), [JS](https://github.com/profesorfaco/infografia/wiki/JS)), este módulo será práctico-teórico; en este repositorio podrán encontrar documentos que facilitarán la práctica y [un wiki](https://github.com/profesorfaco/infografia/wiki) que reforzará lo teórico.** 
 
-Todo lo que encuentras en este repositorio es redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/). De antemano, se agradecen las correcciones.
+Todo lo que encuentras en este repositorio es redactado y compartido por **Felipe** **A**lberto **Cortez** **O**rellana, alias [FACO](http://profesor.faco.cl/), Profesor Adjunto de la Universidad de Chile y Profesor Asistente Adjunto de la Pontificia Universidad Católica de Chile.
 
 profesor@faco.cl
