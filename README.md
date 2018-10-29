@@ -62,6 +62,6 @@ Finalmente, se escribe el valor de `saludo` en el [Document Object Model o DOM](
 
 Como el objetivo es reconocer y utilizar estos languajes, la clase será práctica-teórica. 
 
-En este repositorio podrán encontrar documentos que nos ayudarán en la práctica y un wiki con el que podrán reforzar lo teórico. 
+En este repositorio podrán encontrar documentos que aportarán a la práctica y un wiki que refozará lo teórico. 
 
-Todo está redactado por Felipe Cortez, alias [FACO](http://profesor.faco.cl/), a quien pueden escribir a profesor@faco.cl
+Todo lo que encuentras en este repositorio fue redactado y compartido por Felipe Cortez, alias [FACO](http://profesor.faco.cl/), a quien pueden escribir a profesor@faco.cl
