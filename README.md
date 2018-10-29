@@ -1,6 +1,7 @@
 # Diplomado de infografia
+#### Escuela de Diseño / Pontificia Universidad Católica de Chile / 2018
 
-#### MÓDULO WEB
+### MÓDULO WEB
 
 **Nuestro objetivo**: Reconocer y utilizar los lenguajes que, en la actualidad, son claves en la producción de infografías para soporte digital en línea. Estos lenguajes son: 
 
