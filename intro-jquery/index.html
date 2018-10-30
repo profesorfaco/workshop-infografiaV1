@@ -1,83 +1,77 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Hola!</title>
-	<style>
-		body{padding:3rem; font-family:Helvetica, Arial, sans-serif;}
-		body.hidden { display:none; }
-	</style>
-
- 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-   crossorigin=""/>
- <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-   crossorigin=""></script>
-
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Hola!</title>
+		<!--Lo que sigue es un poco de CSS-->
+		<style>
+			/* Dentro de CSS los comentarios se escriben de esta manera */
+			body{height:100%; padding:3rem; font-family:Helvetica, Arial, sans-serif;}
+			body.hidden { display:none; }
+			div#mapid{ width: 600px;  height: 400px;  margin:2rem 0rem;}
+		</style>
+		<!-- Acá estoy vinculando con el estilo CSS de una biblioteca de JS-->
+	 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+	   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+	   crossorigin=""/>
+	 	<!-- Acá estoy vinculando con una biblioteca de JS: leaflet.js-->
+	 	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+	   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+	   crossorigin=""></script>
 	</head>
 	<body class="hidden">
-		<h1>Temblores con jQuery</h1>
-		<p>Esta página tiene un efecto al cargarse: Un fadeIn de 1000 milisegundos que se logra con el uso de <a href="https://jquery.com/">jQuery</a> (una biblioteca de JS).</p>
-		<p>Con el mismo <a href="https://jquery.com/">jQuery</a>, voy a buscar un JSON que está en línea. Paso sus datos a una variable de nombre data (que pueden ver en la Consola de JavaScript). De la variable, obtengo coordenadas y magnitudes de cada uno de los movimientos telúricos sobre 4.5 del último mes (registrados y publicados por el <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">USGS</a>). Con lo obtenido puedo dibujar círculos con un centro en las coordenadas del epicentro y un radio que depende de la respectiva magnitud del movimiento.</p>
-		<p>Y puedo contar con un mapa, donde dibujar estos círculos, gracias a otra biblioteca de JS, cuyo nombre es <a href="https://leafletjs.com/">Leaflet</a>.</p>
-		<div id="mapid" style="width: 600px; height: 400px;"></div>
-	</div>
-	
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<script>
-	$(document).ready(function () {
-		$('body').fadeIn(1000).removeClass('hidden');
-		$.getJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson', function (data) {
-			console.log(data);
-			//ahora me aprovecho de una biblioteca de javascript, que se llama leaflet.js
-
-			var mymap = L.map('mapid').setView([0, 0], 1);
-
-			L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-			maxZoom: 10,
-			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-			id: 'mapbox.outdoors'
-	}).addTo(mymap);
-
-var lon, lat, r, circle, multiplo;
-for (var x = 0; x < data.features.length ; x++ ){
-	lon = data.features[x].geometry.coordinates[0];
-	lat = data.features[x].geometry.coordinates[1];
-	r = data.features[x].properties.mag;
-	if (Math.round(r) < 5){
-		multiplo = 1000
-	} else if (Math.round(r) == 5){
-		multiplo = 5000
-	} else if (Math.round(r) == 6){
-		multiplo = 25000
-	} else if (Math.round(r) == 7){
-		multiplo = 125000
-	} else if (Math.round(r) == 8){
-		multiplo = 625000
-	} else if (Math.round(r) >= 9){
-		multiplo = 3125000
-	}
-
-	
-	circle = L.circle([lat, lon], {
-	    fillColor: '#c00',
-	    fillOpacity: 0.25,
-	    weight:0,
-	    radius : r * multiplo
-
-	}).addTo(mymap);
-
-}
-
-
-
-	});
-	});
-	</script>
+		<h1>Temblores con jQuery + leaflet.js</h1>
+		<p>Esta página tiene un efecto al cargarse: Un fadeIn de 1000 milisegundos que se logra con el uso de <a href="https://jquery.com/">jQuery</a> (una biblioteca de JS). También, con el uso de jQuery, pinto de rojo el título de primer nivel y los vínculos.</p>
+		<p>Con la misma biblioteca, voy por un <a href="https://www.json.org/" title="JavaScript Object Notation">JSON</a> que está en línea. Paso sus datos a una variable de nombre data (que pueden ver en la Consola de JavaScript). Desde esta variable, obtengo coordenadas y magnitudes de cada uno de los movimientos telúricos sobre 4.5 del último mes (registrados y publicados por <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">USGS</a>). Con lo obtenido puedo dibujar círculos con un centro en las coordenadas del epicentro y un radio que depende de la respectiva magnitud del movimiento.</p>
+		<p>Si cuento con un mapa, donde dibujar estos círculos, es gracias a otra biblioteca de JS, cuyo nombre es <a href="https://leafletjs.com/">Leaflet</a>.</p>
+		<div id="mapid"></div>
+		<!--Acá estoy vinculando con otra biblioteca de JS: jQuery-->	
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<!--Lo que sigue es programación que aprovecha las biblitecas de JS-->	
+		<script>
+		$(document).ready(function () {
+			$('body').fadeIn(1000).removeClass('hidden');
+			$('h1,a').css('color','red');
+			$.getJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson', function (data) {
+				console.log(data);
+				var mymap = L.map('mapid').setView([0, 0], 1);
+				L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+					maxZoom: 10,
+					id: 'mapbox.outdoors',
+					attribution: '<a href="https://www.mapbox.com/">Mapbox</a>'
+				}).addTo(mymap);
+				// Creo algunas variables, sin asignarles contenido de inmediato
+				var lon, lat, r, circle, multiplo;
+				for (var x = 0; x < data.features.length ; x++ ){
+					lon = data.features[x].geometry.coordinates[0];
+					lat = data.features[x].geometry.coordinates[1];
+					r = data.features[x].properties.mag;				
+					// El incremento de 1 dígito implica un movimiento 10 veces más intenso
+					// Para acercarme un poco a tal relación condiciono el valor de un múltipo
+					// Pero, para que me quepan en el mapa, hago un incremento de 10/2 veces
+					if (Math.round(r) < 5){
+						multiplo = 1000
+					} else if (Math.round(r) == 5){
+						multiplo = 5000
+					} else if (Math.round(r) == 6){
+						multiplo = 25000
+					} else if (Math.round(r) == 7){
+						multiplo = 125000
+					} else if (Math.round(r) == 8){
+						multiplo = 625000
+					} else if (Math.round(r) >= 9){
+						multiplo = 3125000
+					}
+					circle = L.circle([lat, lon], {
+					    fillColor: '#c00',
+					    fillOpacity: 0.25,
+					    weight:0,
+					    radius : r * multiplo
+					}).addTo(mymap);
+				} //acá estoy cerrando el ciclo for que me dibuja cada círculo!
+			}); //acá etoy cerrando la función que es posible con data!
+		}); // acá estoy cerrando la función que es posible por la carga!
+		</script>
 	</body>
 </html>
