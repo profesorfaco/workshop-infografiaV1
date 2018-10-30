@@ -7,15 +7,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Hola!</title>
 	<style>
-		body{padding:3rem; font-family: Helvetica, Arial, sans-serif;}
+		body{padding:3rem 7rem; font-family: Helvetica, Arial, sans-serif; line-height:1.618034;}
+		@media (orientation:portrait){
+			body{padding:3rem;}
+		}
+		span{font-weight: bold;}
+		code{font-size:125%; color:#666; background:rgba(200,200,200,.5);}
 	</style>
 	</head>
 	<!--la otra parte es el cuerpo-->
 	<body>
 		<h1></h1>
-			<p>Tu <a href="https://es.wikipedia.org/wiki/Navegador_web">navegador web</a> terminó de "renderizar" esta página <span id="timestamp"></span> segundos después de la medianoche UTC del día 1 de enero de 1970 (así funciona el <a href="https://es.wikipedia.org/wiki/Tiempo_Unix" title="Wikipedia">Tiempo Unix</a>). Puesto de un modo menos <a href="https://youtu.be/2NucTKsif8U" title="YouTube">nerd</a>, la fecha y hora en la que tu navegador te mostró este documento es <span id="timestring"></span>.</p>
-
-			<p>Lo primero que haremos en este módulo será examinar el código fuente de esta página web. Para la mayoría esto podría ser como lanzarse a la piscina del <strong>Front-end web development</strong>, sin saber nadar. En la piscina encontraremos algo de <a href="https://github.com/profesorfaco/modulo-web/wiki/HTML" title="HTML · profesorfaco/modulo-web Wiki">HTML</a>, <a href="https://github.com/profesorfaco/modulo-web/wiki/CSS" title="CSS · profesorfaco/modulo-web Wiki">CSS</a> y <a href="https://github.com/profesorfaco/modulo-web/wiki/JavaScript" title="JavaScript · profesorfaco/modulo-web Wiki">JavaScript</a>. Poner atención <a href="https://youtu.be/f1XSUQD2c8w" title="YouTube">les ayudará a no ahogarse</a>.</p>
+			<p><span id="tu"></span>, tu <a href="https://es.wikipedia.org/wiki/Navegador_web">navegador web</a> te mostró este documento <span id="timestamp"></span> segundos después de la medianoche UTC del día 1 de enero de 1970 (así funciona el <a href="https://es.wikipedia.org/wiki/Tiempo_Unix" title="Wikipedia">Tiempo Unix</a>). Dicho de otro modo, la fecha y hora en la que tu navegador te mostró este documento es <span id="timestring"></span>. Como ya te puedes imaginar, hay partes de este párrafo que son dinámicas: generadas, cada vez que sea requerido, con programación en <a href="https://github.com/profesorfaco/infografia/wiki/JavaScript">JavaScript (JS)</a></p>
+			<p>JS uno de los 3 lenguajes clave en la producción de infografías para soporte digital en línea; los otros dos lenguajes clave son <a href="https://github.com/profesorfaco/infografia/wiki/HTML">HTML</a> y <a href="https://github.com/profesorfaco/infografia/wiki/CSS">CSS</a>.
 			
 			<h2>HTML</h2>
 			
@@ -25,9 +29,11 @@
 			
 			<p>CSS es Cascading Style Sheets. Su bloque constructivo más básico es la regla. Cada regla CSS se compone de la siguiente manera: <code>selector{propiedad:valor;}</code></p>
 			
-			<h2>JavaScript</h2>
+			<h2>JS</h2>
 			
-			<p>HTML y CSS son lenguajes descriptivos. No son lenguajes de programación. Describen, respectivamente, algo por vestir y un "dress code". Pero se trata de algo inerte. Para poder darle vida a este cuerpo es necesario utilizar un lenguaje de programación.</p>
+			<p>HTML y CSS son lenguajes descriptivos. No son lenguajes de programación. HTML describe un cuerpo por vestir, y CSS describe cómo vestir a tal cuerpo. Pero se trata de un cuerpo inerte, como un Pinocchio antes de que el Hada Azul hiciera su parte. Lo que daría vida a este cuerpo es la programación, y es por eso que necesitamos reconocer y utilizar JS: "Un lenguaje de programación que te permite crear contenido nuevo y dinámico, controlar archivos de multimedia, crear imágenes animadas y muchas otras cosas más".</p>
+			<p>Para más detalles sobre este lenguaje, favor visita <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Qu%C3%A9_es_JavaScript">¿Qué es JavaScript? - Aprende sobre desarrollo web | MDN</a> y revisa el <a href="https://github.com/profesorfaco/infografia/wiki/JS">Wiki del repositorio del módulo</a>.</p>
+			<p>Pero antes de revisar más detalles, podríamos asomarnos a la Consola de JavaScript y hacernos una idea respecto de qué implica manipular el DOM.</p>
 			
 			<h4>1. Consola de JavaScript</h4>
 			
@@ -39,7 +45,7 @@
 			<li>Si estás usando <strong>Safari</strong>, presiona: Cmd + Alt + C (aunque no es recomendable seguir trabajando con este navegador web, descarga uno de los anteriores)</li>
 			</ul>
 			
-			<p>Cuando aparezca la consola podrás leer un mensaje (que yo dejé programado; no es que aparezca por defecto).</p>
+			<p>Cuando aparezca la consola podrás leer un mensaje que dejé programado (no es que aparezca por defecto).</p>
 			
 			<p>En la consola también puedes escribir algo. Intenta copiando, pegando, modificando y presionando Enter:</p>
 			
@@ -53,26 +59,36 @@
 			
 			<p>En caso que no le hayas acertado a la respuesta, podrías tener más suerte con lo que sigue: Piensa un número entre 1 y 10.</p>
 			
-			<pre><code>Math.floor((Math.random() * 10) + 1);</code></pre>
+			<pre><code>Math.round((Math.random() * 10) + 1);</code></pre>
 			
-			<p>La función <code>Math.random()</code> me entrega un número pseudo-aleatorio entre el 0 (incluido) y el 1 (excluido), y la función <code>Math.round()</code> acerca el número al entero más cercano. Hablar de funciones es hablar de programación.</p>
+			<p>La función <code>Math.random()</code> me entrega un número pseudo-aleatorio entre el 0 (incluido) y el 1 (excluido), y la función <code>Math.round()</code> redondeado al entero más cercano.</p>
 			
 			<h4>2. Manipular el DOM</h4>
 			
-			<p>Si revisas el código fuente de la página, notarás que hay algunos espacios vacíos. Fíjate en la línea 14, donde hay un <code>&lt;h1&gt;&lt;/h1&gt;</code>. Fíjate también en la línea 15, donde podrás encontrar un <code>&lt;span id="timestamp"&gt;&lt;/span&gt;</code> y un <code>&lt;span id="timestring"&gt;&lt;/span&gt;</code>. Pero estos espacios se rellenan con texto mediante JavaScript y la manipulación del <a href="https://es.wikipedia.org/wiki/Document_Object_Model" title="Wikipedia">Document Object Model (DOM)</a>.</p>
+			<p>Si revisas el código fuente de la página, notarás que hay algunos espacios vacíos. Fíjate en la línea 17, donde hay un <code>&lt;h1&gt;&lt;/h1&gt;</code>. Fíjate también en la línea 18, donde podrás encontrar un <code>&lt;span id="tu"&gt;&lt;/span&gt;</code>, un <code>&lt;span id="timestamp"&gt;&lt;/span&gt;</code> y un <code>&lt;span id="timestring"&gt;&lt;/span&gt;</code>. Todos estos espacios vacíos se rellenan mediante manipulación del <a href="https://es.wikipedia.org/wiki/Document_Object_Model" title="Wikipedia">Document Object Model (DOM)</a>.</p>
 			
 			<p>Manipular el DOM es como "photoshopear" una imagen. Si capturaste 3 elementos, y con Photoshop le agregas un cuarto, en ningún caso estás modificando lo que fue, en principio, capturado… pero sí se ve algo más "como puesto" allí.</p>
 
 		<!--Lo que sigue es algo de programación con JavaScript-->
 		<script>
 			var nombre = "Nombre"
-			var saludo = "Hola "+nombre+"!";
 			var tiempo = Date.now();
 			var fecha = new Date();
+			var h = fecha.getHours();
+			var saludo;
+			if ((h >= 6) && (h < 12)) { 
+			  saludo = "Buenos días"
+			} else if ((h >= 12) && (h < 21)) {
+			  saludo = "Buenas tardes"
+			} else { 
+			  saludo = "Buenas noches"
+			}
+			var encabezado = "¡" + saludo + " " + nombre + "!";
+			document.getElementById("tu").innerHTML = nombre;
 			document.getElementById("timestamp").innerHTML = Math.round(tiempo/1000);
 			document.getElementById("timestring").innerHTML = fecha;
-			document.getElementsByTagName('h1')[0].innerHTML = saludo;
-			console.log(saludo + " Yo soy la consola de JavaScript de tu Navegador");
+			document.getElementsByTagName('h1')[0].innerHTML = encabezado;
+			console.log(saludo + ", yo soy la Consola de JavaScript");
 		</script>
 	</body>
 	<!--y acá termina todo-->
