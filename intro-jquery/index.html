@@ -11,11 +11,11 @@
 			body.hidden { display:none; }
 			div#mapid{ width: 600px;  height: 400px;  margin:2rem 0rem;}
 		</style>
-		<!-- Acá estoy vinculando con el estilo CSS de una biblioteca de JS-->
+		<!-- Acá estamos vinculando con el estilo CSS de una biblioteca de JS-->
 	 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
 	   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
 	   crossorigin=""/>
-	 	<!-- Acá estoy vinculando con una biblioteca de JS: leaflet.js-->
+	 	<!-- Acá estamos vinculando con una biblioteca de JS: leaflet.js-->
 	 	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
 	   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
 	   crossorigin=""></script>
@@ -26,9 +26,9 @@
 		<p>Con la misma biblioteca, voy por un <a href="https://www.json.org/" title="JavaScript Object Notation">JSON</a> que está en línea. Paso sus datos a una variable de nombre data (que pueden ver en la Consola de JavaScript). Desde esta variable, obtengo coordenadas y magnitudes de cada uno de los movimientos telúricos sobre 4.5 del último mes (registrados y publicados por <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">USGS</a>). Con lo obtenido puedo dibujar círculos con un centro en las coordenadas del epicentro y un radio que depende de la respectiva magnitud del movimiento.</p>
 		<p>Si cuento con un mapa, donde dibujar estos círculos, es gracias a otra biblioteca de JS, cuyo nombre es <a href="https://leafletjs.com/">Leaflet</a>.</p>
 		<div id="mapid"></div>
-		<!--Acá estoy vinculando con otra biblioteca de JS: jQuery-->	
+		<!--Acá estamos vinculando con otra biblioteca de JS: jQuery-->	
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-		<!--Lo que sigue es programación que aprovecha las biblitecas de JS-->	
+		<!--Lo que sigue es programación que aprovecha las biblitecas de JS vinculadas-->	
 		<script>
 		$(document).ready(function () {
 			$('body').fadeIn(1000).removeClass('hidden');
@@ -41,7 +41,7 @@
 					id: 'mapbox.outdoors',
 					attribution: '<a href="https://www.mapbox.com/">Mapbox</a>'
 				}).addTo(mymap);
-				// Creo algunas variables, sin asignarles contenido de inmediato
+				// Creamos algunas variables, sin asignarles contenido de inmediato
 				var lon, lat, r, circle, multiplo;
 				for (var x = 0; x < data.features.length ; x++ ){
 					lon = data.features[x].geometry.coordinates[0];
@@ -69,9 +69,9 @@
 					    weight:0,
 					    radius : r * multiplo
 					}).addTo(mymap);
-				} //acá estoy cerrando el ciclo for que me dibuja cada círculo!
-			}); //acá etoy cerrando la función que es posible con data!
-		}); // acá estoy cerrando la función que es posible por la carga!
+				} //acá estamos cerrando el ciclo for que me dibuja cada círculo!
+			}); //acá estamos cerrando la función que es posible con data!
+		}); // acá estamos cerrando la función que es posible por la carga!
 		</script>
 	</body>
 </html>
