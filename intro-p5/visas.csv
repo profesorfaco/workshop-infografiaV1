@@ -1,0 +1,1509 @@
+year,id_continent,continent,id_country,country,number_visas
+2005,2,África,140,Angola,1
+2005,2,África,127,Argelia,2
+2005,2,África,150,Benin,2
+2005,2,África,161,Burkina Faso,2
+2005,2,África,129,Cabo Verde,1
+2005,2,África,149,Camerún,1
+2005,2,África,144,"Congo, República del",1
+2005,2,África,107,Costa de Marfil,3
+2005,2,África,124,Egipto,6
+2005,2,África,104,Guinea,1
+2005,2,África,137,Kenya,5
+2005,2,África,128,Marruecos,9
+2005,2,África,119,Mauricio,2
+2005,2,África,121,Mozambique,3
+2005,2,África,111,Nigeria,1
+2005,2,África,142,Rwanda,2
+2005,2,África,105,Sierra Leona,5
+2005,2,África,112,Sudáfrica,43
+2005,2,África,135,Tanzania,3
+2005,2,África,109,Togo,1
+2005,2,África,126,Túnez,1
+2005,9,Oceanía,406,Australia,123
+2005,9,Oceanía,418,Islas Salomón,2
+2005,9,Oceanía,405,Nueva Zelandia,52
+2005,9,Oceanía,403,Tonga (Isla Tonga),1
+2005,19,América,224,Argentina,6.263
+2005,19,América,207,Bahamas,1
+2005,19,América,236,Belice,3
+2005,19,América,221,Bolivia,2.420
+2005,19,América,220,Brasil,1.160
+2005,19,América,226,Canadá,272
+2005,19,América,202,Colombia,2.179
+2005,19,América,211,Costa Rica,58
+2005,19,América,209,Cuba,664
+2005,19,América,231,Dominica,1
+2005,19,América,218,Ecuador,2.956
+2005,19,América,213,El Salvador,55
+2005,19,América,225,Estados Unidos de América,1.984
+2005,19,América,232,Granada,1
+2005,19,América,215,Guatemala,57
+2005,19,América,208,Haití,12
+2005,19,América,214,Honduras,44
+2005,19,América,205,Jamaica,4
+2005,19,América,216,México,599
+2005,19,América,212,Nicaragua,43
+2005,19,América,210,Panamá,72
+2005,19,América,222,Paraguay,403
+2005,19,América,219,Perú,25.966
+2005,19,América,206,República Dominicana,172
+2005,19,América,234,San Vicente y las Granadinas,1
+2005,19,América,203,Trinidad y Tobago,4
+2005,19,América,223,Uruguay,1.077
+2005,19,América,201,Venezuela,567
+2005,142,Asia,308,Afghanistán,8
+2005,142,Asia,302,Arabia Saudita,1
+2005,142,Asia,336,China,1.131
+2005,142,Asia,334,Corea del Norte,20
+2005,142,Asia,333,Corea del Sur,315
+2005,142,Asia,335,Filipinas,22
+2005,142,Asia,550,Georgia,1
+2005,142,Asia,342,Hong Kong (Región administrativa especial de China),3
+2005,142,Asia,317,India,171
+2005,142,Asia,328,Indonesia,23
+2005,142,Asia,309,Irán,11
+2005,142,Asia,307,Iraq,8
+2005,142,Asia,306,Israel,47
+2005,142,Asia,331,Japón,148
+2005,142,Asia,301,Jordania,8
+2005,142,Asia,551,Kasajstan,1
+2005,142,Asia,552,Kirguistán,1
+2005,142,Asia,311,Libano,21
+2005,142,Asia,329,Malasia,6
+2005,142,Asia,326,Myanmar (ex Birmania),1
+2005,142,Asia,320,Nepal,2
+2005,142,Asia,324,Pakistán,63
+2005,142,Asia,332,Singapur,12
+2005,142,Asia,310,Siria,28
+2005,142,Asia,319,Tailandia,11
+2005,142,Asia,330,Taiwán,36
+2005,142,Asia,522,Turquia,54
+2005,142,Asia,560,Uzbekistán,2
+2005,142,Asia,325,Viet Nam,1
+2005,150,Europa,518,Albania,2
+2005,150,Europa,563,Alemania,495
+2005,150,Europa,525,Andorra,2
+2005,150,Europa,509,Austria,53
+2005,150,Europa,542,Belarús,7
+2005,150,Europa,514,Bélgica,104
+2005,150,Europa,543,Bosnia y Herzegovina,6
+2005,150,Europa,527,Bulgaria,10
+2005,150,Europa,547,Croacia,13
+2005,150,Europa,507,Dinamarca,50
+2005,150,Europa,517,España,825
+2005,150,Europa,512,Finlandia,37
+2005,150,Europa,505,Francia,569
+2005,150,Europa,520,Grecia,4
+2005,150,Europa,515,Holanda,115
+2005,150,Europa,530,Hungria,10
+2005,150,Europa,506,Irlanda,21
+2005,150,Europa,516,Islandia,9
+2005,150,Europa,504,Italia,269
+2005,150,Europa,553,Letonia,1
+2005,150,Europa,554,Lituania,1
+2005,150,Europa,532,Luxemburgo,3
+2005,150,Europa,555,Macedonia,3
+2005,150,Europa,523,Malta,2
+2005,150,Europa,556,Moldova,2
+2005,150,Europa,513,Noruega,67
+2005,150,Europa,528,Polonia,34
+2005,150,Europa,501,Portugal,16
+2005,150,Europa,510,Reino Unido,227
+2005,150,Europa,544,República Checa,12
+2005,150,Europa,545,República Eslovaca,1
+2005,150,Europa,519,Rumania,29
+2005,150,Europa,562,Rusia,88
+2005,150,Europa,511,Suecia,95
+2005,150,Europa,508,Suiza,104
+2005,150,Europa,559,Ucrania,30
+2005,999,Otros,997,Chile,392
+2005,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),12
+2006,2,África,140,Angola,2
+2006,2,África,150,Benin,1
+2006,2,África,161,Burkina Faso,1
+2006,2,África,149,Camerún,6
+2006,2,África,144,"Congo, República del",8
+2006,2,África,107,Costa de Marfil,1
+2006,2,África,124,Egipto,8
+2006,2,África,163,Eritrea,1
+2006,2,África,139,Etiopia,1
+2006,2,África,102,Gambia,1
+2006,2,África,104,Guinea,1
+2006,2,África,137,Kenya,4
+2006,2,África,106,Liberia,1
+2006,2,África,120,Madagascar,1
+2006,2,África,128,Marruecos,9
+2006,2,África,134,Mauritania,1
+2006,2,África,121,Mozambique,5
+2006,2,África,159,Namibia,2
+2006,2,África,111,Nigeria,2
+2006,2,África,105,Sierra Leona,5
+2006,2,África,112,Sudáfrica,52
+2006,2,África,135,Tanzania,1
+2006,2,África,109,Togo,1
+2006,2,África,126,Túnez,2
+2006,9,Oceanía,406,Australia,160
+2006,9,Oceanía,418,Islas Salomón,1
+2006,9,Oceanía,405,Nueva Zelandia,44
+2006,19,América,224,Argentina,6.114
+2006,19,América,236,Belice,1
+2006,19,América,221,Bolivia,2.815
+2006,19,América,220,Brasil,1.451
+2006,19,América,226,Canadá,246
+2006,19,América,202,Colombia,3.195
+2006,19,América,211,Costa Rica,63
+2006,19,América,209,Cuba,642
+2006,19,América,218,Ecuador,3.135
+2006,19,América,213,El Salvador,53
+2006,19,América,225,Estados Unidos de América,1.926
+2006,19,América,232,Granada,1
+2006,19,América,215,Guatemala,60
+2006,19,América,217,Guyana,3
+2006,19,América,208,Haití,55
+2006,19,América,214,Honduras,41
+2006,19,América,205,Jamaica,2
+2006,19,América,216,México,688
+2006,19,América,212,Nicaragua,44
+2006,19,América,210,Panamá,89
+2006,19,América,222,Paraguay,447
+2006,19,América,219,Perú,32.746
+2006,19,América,206,República Dominicana,206
+2006,19,América,234,San Vicente y las Granadinas,3
+2006,19,América,203,Trinidad y Tobago,9
+2006,19,América,223,Uruguay,1.099
+2006,19,América,201,Venezuela,618
+2006,142,Asia,308,Afghanistán,4
+2006,142,Asia,302,Arabia Saudita,2
+2006,142,Asia,540,Armenia,2
+2006,142,Asia,336,China,1.210
+2006,142,Asia,334,Corea del Norte,20
+2006,142,Asia,333,Corea del Sur,345
+2006,142,Asia,335,Filipinas,27
+2006,142,Asia,550,Georgia,1
+2006,142,Asia,342,Hong Kong (Región administrativa especial de China),1
+2006,142,Asia,317,India,222
+2006,142,Asia,328,Indonesia,19
+2006,142,Asia,309,Irán,9
+2006,142,Asia,307,Iraq,1
+2006,142,Asia,306,Israel,48
+2006,142,Asia,331,Japón,159
+2006,142,Asia,301,Jordania,8
+2006,142,Asia,552,Kirguistán,1
+2006,142,Asia,303,Kuwait,1
+2006,142,Asia,311,Libano,36
+2006,142,Asia,329,Malasia,5
+2006,142,Asia,337,Mongolia,1
+2006,142,Asia,326,Myanmar (ex Birmania),1
+2006,142,Asia,320,Nepal,4
+2006,142,Asia,324,Pakistán,82
+2006,142,Asia,332,Singapur,9
+2006,142,Asia,310,Siria,28
+2006,142,Asia,314,Sri Lanka,1
+2006,142,Asia,319,Tailandia,11
+2006,142,Asia,330,Taiwán,58
+2006,142,Asia,522,Turquia,70
+2006,142,Asia,560,Uzbekistán,4
+2006,142,Asia,325,Viet Nam,3
+2006,150,Europa,518,Albania,1
+2006,150,Europa,563,Alemania,481
+2006,150,Europa,525,Andorra,1
+2006,150,Europa,509,Austria,54
+2006,150,Europa,542,Belarús,2
+2006,150,Europa,514,Bélgica,95
+2006,150,Europa,543,Bosnia y Herzegovina,2
+2006,150,Europa,527,Bulgaria,5
+2006,150,Europa,547,Croacia,3
+2006,150,Europa,507,Dinamarca,26
+2006,150,Europa,517,España,869
+2006,150,Europa,549,Estonia,1
+2006,150,Europa,512,Finlandia,54
+2006,150,Europa,505,Francia,571
+2006,150,Europa,520,Grecia,10
+2006,150,Europa,515,Holanda,118
+2006,150,Europa,530,Hungria,4
+2006,150,Europa,506,Irlanda,27
+2006,150,Europa,516,Islandia,7
+2006,150,Europa,504,Italia,255
+2006,150,Europa,553,Letonia,1
+2006,150,Europa,554,Lituania,2
+2006,150,Europa,555,Macedonia,2
+2006,150,Europa,556,Moldova,9
+2006,150,Europa,513,Noruega,63
+2006,150,Europa,528,Polonia,37
+2006,150,Europa,501,Portugal,25
+2006,150,Europa,510,Reino Unido,192
+2006,150,Europa,544,República Checa,4
+2006,150,Europa,545,República Eslovaca,1
+2006,150,Europa,519,Rumania,24
+2006,150,Europa,562,Rusia,73
+2006,150,Europa,511,Suecia,82
+2006,150,Europa,508,Suiza,94
+2006,150,Europa,559,Ucrania,31
+2006,999,Otros,997,Chile,173
+2006,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),18
+2007,2,África,140,Angola,4
+2007,2,África,127,Argelia,2
+2007,2,África,149,Camerún,10
+2007,2,África,144,"Congo, República del",7
+2007,2,África,107,Costa de Marfil,6
+2007,2,África,124,Egipto,9
+2007,2,África,139,Etiopia,1
+2007,2,África,147,Guinea Ecuatorial,1
+2007,2,África,137,Kenya,4
+2007,2,África,133,Mali,1
+2007,2,África,128,Marruecos,14
+2007,2,África,119,Mauricio,2
+2007,2,África,121,Mozambique,5
+2007,2,África,111,Nigeria,2
+2007,2,África,105,Sierra Leona,1
+2007,2,África,112,Sudáfrica,58
+2007,2,África,126,Túnez,2
+2007,9,Oceanía,406,Australia,145
+2007,9,Oceanía,418,Islas Salomón,2
+2007,9,Oceanía,405,Nueva Zelandia,59
+2007,19,América,224,Argentina,5.656
+2007,19,América,207,Bahamas,2
+2007,19,América,236,Belice,3
+2007,19,América,221,Bolivia,7.448
+2007,19,América,220,Brasil,1.810
+2007,19,América,226,Canadá,243
+2007,19,América,202,Colombia,4.834
+2007,19,América,211,Costa Rica,91
+2007,19,América,209,Cuba,736
+2007,19,América,218,Ecuador,4.352
+2007,19,América,213,El Salvador,79
+2007,19,América,225,Estados Unidos de América,2.041
+2007,19,América,215,Guatemala,64
+2007,19,América,217,Guyana,2
+2007,19,América,208,Haití,119
+2007,19,América,214,Honduras,74
+2007,19,América,205,Jamaica,2
+2007,19,América,216,México,853
+2007,19,América,212,Nicaragua,42
+2007,19,América,210,Panamá,161
+2007,19,América,222,Paraguay,782
+2007,19,América,219,Perú,63.869
+2007,19,América,206,República Dominicana,354
+2007,19,América,234,San Vicente y las Granadinas,3
+2007,19,América,203,Trinidad y Tobago,14
+2007,19,América,223,Uruguay,1.275
+2007,19,América,201,Venezuela,773
+2007,142,Asia,308,Afghanistán,5
+2007,142,Asia,336,China,1.517
+2007,142,Asia,334,Corea del Norte,17
+2007,142,Asia,333,Corea del Sur,320
+2007,142,Asia,335,Filipinas,21
+2007,142,Asia,342,Hong Kong (Región administrativa especial de China),3
+2007,142,Asia,317,India,264
+2007,142,Asia,328,Indonesia,19
+2007,142,Asia,309,Irán,17
+2007,142,Asia,307,Iraq,7
+2007,142,Asia,306,Israel,55
+2007,142,Asia,331,Japón,149
+2007,142,Asia,301,Jordania,3
+2007,142,Asia,552,Kirguistán,1
+2007,142,Asia,311,Libano,44
+2007,142,Asia,329,Malasia,4
+2007,142,Asia,326,Myanmar (ex Birmania),1
+2007,142,Asia,320,Nepal,5
+2007,142,Asia,304,Omán,1
+2007,142,Asia,324,Pakistán,107
+2007,142,Asia,332,Singapur,6
+2007,142,Asia,310,Siria,34
+2007,142,Asia,319,Tailandia,7
+2007,142,Asia,330,Taiwán,71
+2007,142,Asia,522,Turquia,71
+2007,142,Asia,560,Uzbekistán,1
+2007,150,Europa,518,Albania,1
+2007,150,Europa,563,Alemania,562
+2007,150,Europa,525,Andorra,1
+2007,150,Europa,509,Austria,41
+2007,150,Europa,542,Belarús,8
+2007,150,Europa,514,Bélgica,72
+2007,150,Europa,543,Bosnia y Herzegovina,3
+2007,150,Europa,527,Bulgaria,18
+2007,150,Europa,547,Croacia,11
+2007,150,Europa,507,Dinamarca,43
+2007,150,Europa,517,España,944
+2007,150,Europa,549,Estonia,2
+2007,150,Europa,512,Finlandia,32
+2007,150,Europa,505,Francia,688
+2007,150,Europa,520,Grecia,9
+2007,150,Europa,515,Holanda,125
+2007,150,Europa,530,Hungria,5
+2007,150,Europa,506,Irlanda,14
+2007,150,Europa,504,Italia,269
+2007,150,Europa,554,Lituania,2
+2007,150,Europa,555,Macedonia,1
+2007,150,Europa,556,Moldova,9
+2007,150,Europa,513,Noruega,65
+2007,150,Europa,528,Polonia,50
+2007,150,Europa,501,Portugal,28
+2007,150,Europa,510,Reino Unido,228
+2007,150,Europa,544,República Checa,9
+2007,150,Europa,545,República Eslovaca,2
+2007,150,Europa,519,Rumania,24
+2007,150,Europa,562,Rusia,135
+2007,150,Europa,536,San Marino,1
+2007,150,Europa,546,Serbia,1
+2007,150,Europa,511,Suecia,83
+2007,150,Europa,508,Suiza,113
+2007,150,Europa,559,Ucrania,33
+2007,999,Otros,997,Chile,50
+2007,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),22
+2008,2,África,140,Angola,3
+2008,2,África,127,Argelia,1
+2008,2,África,149,Camerún,9
+2008,2,África,144,"Congo, República del",13
+2008,2,África,107,Costa de Marfil,4
+2008,2,África,124,Egipto,8
+2008,2,África,139,Etiopia,2
+2008,2,África,145,Gabón,1
+2008,2,África,108,Ghana,6
+2008,2,África,104,Guinea,2
+2008,2,África,137,Kenya,2
+2008,2,África,128,Marruecos,16
+2008,2,África,119,Mauricio,1
+2008,2,África,121,Mozambique,2
+2008,2,África,111,Nigeria,3
+2008,2,África,105,Sierra Leona,3
+2008,2,África,112,Sudáfrica,89
+2008,2,África,135,Tanzania,1
+2008,2,África,126,Túnez,5
+2008,2,África,116,Zimbabwe,2
+2008,9,Oceanía,406,Australia,200
+2008,9,Oceanía,418,Islas Salomón,1
+2008,9,Oceanía,405,Nueva Zelandia,88
+2008,9,Oceanía,403,Tonga (Isla Tonga),1
+2008,19,América,240,Antigua y Barbuda,1
+2008,19,América,224,Argentina,5.345
+2008,19,América,207,Bahamas,1
+2008,19,América,236,Belice,4
+2008,19,América,244,Bermudas,1
+2008,19,América,221,Bolivia,5.374
+2008,19,América,220,Brasil,1.641
+2008,19,América,226,Canadá,294
+2008,19,América,202,Colombia,5.563
+2008,19,América,211,Costa Rica,83
+2008,19,América,209,Cuba,706
+2008,19,América,218,Ecuador,3.933
+2008,19,América,213,El Salvador,113
+2008,19,América,225,Estados Unidos de América,2.377
+2008,19,América,215,Guatemala,98
+2008,19,América,217,Guyana,4
+2008,19,América,208,Haití,180
+2008,19,América,214,Honduras,84
+2008,19,América,205,Jamaica,4
+2008,19,América,216,México,849
+2008,19,América,212,Nicaragua,76
+2008,19,América,210,Panamá,305
+2008,19,América,222,Paraguay,824
+2008,19,América,219,Perú,47.336
+2008,19,América,206,República Dominicana,420
+2008,19,América,234,San Vicente y las Granadinas,4
+2008,19,América,203,Trinidad y Tobago,13
+2008,19,América,223,Uruguay,1.271
+2008,19,América,201,Venezuela,819
+2008,142,Asia,308,Afghanistán,1
+2008,142,Asia,540,Armenia,2
+2008,142,Asia,321,Bangladesh,4
+2008,142,Asia,318,Bhután,1
+2008,142,Asia,336,China,1.659
+2008,142,Asia,334,Corea del Norte,23
+2008,142,Asia,333,Corea del Sur,376
+2008,142,Asia,335,Filipinas,36
+2008,142,Asia,342,Hong Kong (Región administrativa especial de China),3
+2008,142,Asia,317,India,261
+2008,142,Asia,328,Indonesia,22
+2008,142,Asia,309,Irán,16
+2008,142,Asia,307,Iraq,1
+2008,142,Asia,306,Israel,64
+2008,142,Asia,331,Japón,163
+2008,142,Asia,301,Jordania,5
+2008,142,Asia,552,Kirguistán,2
+2008,142,Asia,311,Libano,38
+2008,142,Asia,329,Malasia,5
+2008,142,Asia,337,Mongolia,1
+2008,142,Asia,326,Myanmar (ex Birmania),1
+2008,142,Asia,320,Nepal,10
+2008,142,Asia,324,Pakistán,114
+2008,142,Asia,332,Singapur,1
+2008,142,Asia,310,Siria,22
+2008,142,Asia,314,Sri Lanka,10
+2008,142,Asia,319,Tailandia,19
+2008,142,Asia,330,Taiwán,66
+2008,142,Asia,522,Turquia,74
+2008,142,Asia,560,Uzbekistán,2
+2008,150,Europa,518,Albania,2
+2008,150,Europa,563,Alemania,614
+2008,150,Europa,525,Andorra,1
+2008,150,Europa,509,Austria,32
+2008,150,Europa,542,Belarús,11
+2008,150,Europa,514,Bélgica,107
+2008,150,Europa,543,Bosnia y Herzegovina,4
+2008,150,Europa,527,Bulgaria,21
+2008,150,Europa,547,Croacia,53
+2008,150,Europa,507,Dinamarca,37
+2008,150,Europa,548,Eslovenia,2
+2008,150,Europa,517,España,936
+2008,150,Europa,549,Estonia,2
+2008,150,Europa,512,Finlandia,32
+2008,150,Europa,505,Francia,710
+2008,150,Europa,520,Grecia,6
+2008,150,Europa,515,Holanda,118
+2008,150,Europa,530,Hungria,4
+2008,150,Europa,506,Irlanda,23
+2008,150,Europa,516,Islandia,2
+2008,150,Europa,504,Italia,316
+2008,150,Europa,553,Letonia,3
+2008,150,Europa,534,Liechtenstein,1
+2008,150,Europa,554,Lituania,6
+2008,150,Europa,555,Macedonia,4
+2008,150,Europa,556,Moldova,4
+2008,150,Europa,513,Noruega,79
+2008,150,Europa,528,Polonia,47
+2008,150,Europa,501,Portugal,42
+2008,150,Europa,510,Reino Unido,255
+2008,150,Europa,544,República Checa,11
+2008,150,Europa,545,República Eslovaca,5
+2008,150,Europa,519,Rumania,29
+2008,150,Europa,562,Rusia,129
+2008,150,Europa,546,Serbia,1
+2008,150,Europa,511,Suecia,82
+2008,150,Europa,508,Suiza,128
+2008,150,Europa,559,Ucrania,41
+2008,150,Europa,526,Yugoslavia,1
+2008,999,Otros,997,Chile,26
+2008,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),17
+2009,2,África,140,Angola,2
+2009,2,África,127,Argelia,3
+2009,2,África,150,Benin,2
+2009,2,África,141,Burundi,1
+2009,2,África,149,Camerún,10
+2009,2,África,144,"Congo, República del",20
+2009,2,África,107,Costa de Marfil,6
+2009,2,África,124,Egipto,12
+2009,2,África,139,Etiopia,1
+2009,2,África,108,Ghana,4
+2009,2,África,104,Guinea,1
+2009,2,África,137,Kenya,2
+2009,2,África,106,Liberia,1
+2009,2,África,128,Marruecos,19
+2009,2,África,119,Mauricio,3
+2009,2,África,121,Mozambique,1
+2009,2,África,111,Nigeria,4
+2009,2,África,146,Santo Tomé y Principe,1
+2009,2,África,112,Sudáfrica,94
+2009,2,África,126,Túnez,4
+2009,2,África,116,Zimbabwe,2
+2009,9,Oceanía,406,Australia,186
+2009,9,Oceanía,401,Fiji,2
+2009,9,Oceanía,418,Islas Salomón,2
+2009,9,Oceanía,405,Nueva Zelandia,81
+2009,9,Oceanía,404,Samoa Occidental,1
+2009,9,Oceanía,403,Tonga (Isla Tonga),1
+2009,19,América,224,Argentina,5.453
+2009,19,América,236,Belice,1
+2009,19,América,221,Bolivia,7.801
+2009,19,América,220,Brasil,1.651
+2009,19,América,226,Canadá,266
+2009,19,América,202,Colombia,7.697
+2009,19,América,211,Costa Rica,99
+2009,19,América,209,Cuba,732
+2009,19,América,218,Ecuador,4.674
+2009,19,América,213,El Salvador,115
+2009,19,América,225,Estados Unidos de América,2.615
+2009,19,América,232,Granada,1
+2009,19,América,215,Guatemala,98
+2009,19,América,217,Guyana,2
+2009,19,América,208,Haití,365
+2009,19,América,214,Honduras,147
+2009,19,América,205,Jamaica,2
+2009,19,América,216,México,880
+2009,19,América,212,Nicaragua,83
+2009,19,América,210,Panamá,322
+2009,19,América,222,Paraguay,874
+2009,19,América,219,Perú,56.586
+2009,19,América,206,República Dominicana,687
+2009,19,América,234,San Vicente y las Granadinas,2
+2009,19,América,235,Suriname,4
+2009,19,América,203,Trinidad y Tobago,4
+2009,19,América,248,Turcas y Caicos,4
+2009,19,América,223,Uruguay,1.171
+2009,19,América,201,Venezuela,1.013
+2009,142,Asia,308,Afghanistán,2
+2009,142,Asia,302,Arabia Saudita,1
+2009,142,Asia,540,Armenia,3
+2009,142,Asia,541,Azerbaiyan,3
+2009,142,Asia,321,Bangladesh,7
+2009,142,Asia,336,China,2.054
+2009,142,Asia,334,Corea del Norte,36
+2009,142,Asia,333,Corea del Sur,425
+2009,142,Asia,335,Filipinas,49
+2009,142,Asia,550,Georgia,1
+2009,142,Asia,317,India,228
+2009,142,Asia,328,Indonesia,23
+2009,142,Asia,309,Irán,11
+2009,142,Asia,307,Iraq,2
+2009,142,Asia,306,Israel,140
+2009,142,Asia,331,Japón,183
+2009,142,Asia,301,Jordania,9
+2009,142,Asia,551,Kasajstan,2
+2009,142,Asia,311,Libano,34
+2009,142,Asia,329,Malasia,5
+2009,142,Asia,337,Mongolia,1
+2009,142,Asia,320,Nepal,14
+2009,142,Asia,324,Pakistán,138
+2009,142,Asia,346,República del Yemen,1
+2009,142,Asia,332,Singapur,6
+2009,142,Asia,310,Siria,30
+2009,142,Asia,314,Sri Lanka,4
+2009,142,Asia,319,Tailandia,14
+2009,142,Asia,330,Taiwán,65
+2009,142,Asia,522,Turquia,66
+2009,150,Europa,518,Albania,2
+2009,150,Europa,563,Alemania,587
+2009,150,Europa,509,Austria,55
+2009,150,Europa,542,Belarús,14
+2009,150,Europa,514,Bélgica,92
+2009,150,Europa,543,Bosnia y Herzegovina,2
+2009,150,Europa,527,Bulgaria,8
+2009,150,Europa,547,Croacia,16
+2009,150,Europa,507,Dinamarca,43
+2009,150,Europa,548,Eslovenia,6
+2009,150,Europa,517,España,1.092
+2009,150,Europa,549,Estonia,1
+2009,150,Europa,512,Finlandia,33
+2009,150,Europa,505,Francia,674
+2009,150,Europa,520,Grecia,9
+2009,150,Europa,515,Holanda,140
+2009,150,Europa,530,Hungria,17
+2009,150,Europa,506,Irlanda,33
+2009,150,Europa,516,Islandia,6
+2009,150,Europa,504,Italia,370
+2009,150,Europa,553,Letonia,3
+2009,150,Europa,554,Lituania,27
+2009,150,Europa,532,Luxemburgo,1
+2009,150,Europa,555,Macedonia,2
+2009,150,Europa,556,Moldova,5
+2009,150,Europa,513,Noruega,64
+2009,150,Europa,528,Polonia,49
+2009,150,Europa,501,Portugal,33
+2009,150,Europa,510,Reino Unido,284
+2009,150,Europa,544,República Checa,33
+2009,150,Europa,545,República Eslovaca,6
+2009,150,Europa,519,Rumania,39
+2009,150,Europa,562,Rusia,146
+2009,150,Europa,546,Serbia,7
+2009,150,Europa,511,Suecia,73
+2009,150,Europa,508,Suiza,138
+2009,150,Europa,559,Ucrania,34
+2009,150,Europa,526,Yugoslavia,9
+2009,999,Otros,997,Chile,20
+2009,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),14
+2010,2,África,140,Angola,4
+2010,2,África,127,Argelia,8
+2010,2,África,150,Benin,1
+2010,2,África,161,Burkina Faso,1
+2010,2,África,149,Camerún,17
+2010,2,África,144,"Congo, República del",11
+2010,2,África,107,Costa de Marfil,8
+2010,2,África,124,Egipto,7
+2010,2,África,108,Ghana,9
+2010,2,África,137,Kenya,4
+2010,2,África,125,Libia,1
+2010,2,África,128,Marruecos,14
+2010,2,África,119,Mauricio,1
+2010,2,África,121,Mozambique,4
+2010,2,África,111,Nigeria,12
+2010,2,África,146,Santo Tomé y Principe,1
+2010,2,África,101,Senegal,7
+2010,2,África,138,Somalia,2
+2010,2,África,112,Sudáfrica,69
+2010,2,África,126,Túnez,3
+2010,9,Oceanía,406,Australia,186
+2010,9,Oceanía,401,Fiji,1
+2010,9,Oceanía,405,Nueva Zelandia,75
+2010,19,América,224,Argentina,5.387
+2010,19,América,236,Belice,5
+2010,19,América,221,Bolivia,7.423
+2010,19,América,220,Brasil,1.818
+2010,19,América,226,Canadá,341
+2010,19,América,202,Colombia,8.921
+2010,19,América,211,Costa Rica,117
+2010,19,América,209,Cuba,744
+2010,19,América,218,Ecuador,3.624
+2010,19,América,213,El Salvador,138
+2010,19,América,225,Estados Unidos de América,3.287
+2010,19,América,215,Guatemala,118
+2010,19,América,217,Guyana,2
+2010,19,América,208,Haití,744
+2010,19,América,214,Honduras,134
+2010,19,América,205,Jamaica,4
+2010,19,América,216,México,917
+2010,19,América,212,Nicaragua,80
+2010,19,América,210,Panamá,224
+2010,19,América,222,Paraguay,889
+2010,19,América,219,Perú,38.048
+2010,19,América,206,República Dominicana,1.152
+2010,19,América,241,Saint Kitts & Nevis,1
+2010,19,América,235,Suriname,1
+2010,19,América,203,Trinidad y Tobago,7
+2010,19,América,223,Uruguay,1.190
+2010,19,América,201,Venezuela,1.091
+2010,142,Asia,308,Afghanistán,1
+2010,142,Asia,540,Armenia,1
+2010,142,Asia,321,Bangladesh,4
+2010,142,Asia,336,China,2.041
+2010,142,Asia,334,Corea del Norte,12
+2010,142,Asia,333,Corea del Sur,544
+2010,142,Asia,335,Filipinas,75
+2010,142,Asia,550,Georgia,1
+2010,142,Asia,342,Hong Kong (Región administrativa especial de China),9
+2010,142,Asia,317,India,266
+2010,142,Asia,328,Indonesia,101
+2010,142,Asia,309,Irán,8
+2010,142,Asia,307,Iraq,29
+2010,142,Asia,306,Israel,45
+2010,142,Asia,331,Japón,146
+2010,142,Asia,301,Jordania,16
+2010,142,Asia,551,Kasajstan,2
+2010,142,Asia,552,Kirguistán,1
+2010,142,Asia,311,Libano,23
+2010,142,Asia,329,Malasia,7
+2010,142,Asia,320,Nepal,17
+2010,142,Asia,324,Pakistán,115
+2010,142,Asia,332,Singapur,7
+2010,142,Asia,310,Siria,16
+2010,142,Asia,314,Sri Lanka,6
+2010,142,Asia,319,Tailandia,19
+2010,142,Asia,330,Taiwán,60
+2010,142,Asia,522,Turquia,74
+2010,142,Asia,560,Uzbekistán,1
+2010,150,Europa,518,Albania,5
+2010,150,Europa,563,Alemania,644
+2010,150,Europa,509,Austria,40
+2010,150,Europa,542,Belarús,20
+2010,150,Europa,514,Bélgica,91
+2010,150,Europa,543,Bosnia y Herzegovina,2
+2010,150,Europa,527,Bulgaria,17
+2010,150,Europa,547,Croacia,13
+2010,150,Europa,507,Dinamarca,45
+2010,150,Europa,548,Eslovenia,1
+2010,150,Europa,517,España,1.170
+2010,150,Europa,549,Estonia,3
+2010,150,Europa,512,Finlandia,40
+2010,150,Europa,505,Francia,856
+2010,150,Europa,520,Grecia,12
+2010,150,Europa,515,Holanda,119
+2010,150,Europa,530,Hungria,13
+2010,150,Europa,506,Irlanda,26
+2010,150,Europa,516,Islandia,5
+2010,150,Europa,504,Italia,626
+2010,150,Europa,553,Letonia,2
+2010,150,Europa,554,Lituania,8
+2010,150,Europa,532,Luxemburgo,1
+2010,150,Europa,555,Macedonia,3
+2010,150,Europa,556,Moldova,5
+2010,150,Europa,513,Noruega,67
+2010,150,Europa,528,Polonia,60
+2010,150,Europa,501,Portugal,62
+2010,150,Europa,510,Reino Unido,269
+2010,150,Europa,544,República Checa,108
+2010,150,Europa,545,República Eslovaca,27
+2010,150,Europa,519,Rumania,47
+2010,150,Europa,562,Rusia,177
+2010,150,Europa,546,Serbia,13
+2010,150,Europa,511,Suecia,68
+2010,150,Europa,508,Suiza,98
+2010,150,Europa,559,Ucrania,41
+2010,150,Europa,526,Yugoslavia,4
+2010,999,Otros,997,Chile,30
+2010,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),1
+2011,2,África,140,Angola,6
+2011,2,África,127,Argelia,3
+2011,2,África,150,Benin,1
+2011,2,África,149,Camerún,13
+2011,2,África,144,"Congo, República del",16
+2011,2,África,107,Costa de Marfil,5
+2011,2,África,124,Egipto,6
+2011,2,África,139,Etiopia,1
+2011,2,África,102,Gambia,1
+2011,2,África,108,Ghana,5
+2011,2,África,104,Guinea,1
+2011,2,África,147,Guinea Ecuatorial,1
+2011,2,África,137,Kenya,6
+2011,2,África,120,Madagascar,3
+2011,2,África,133,Mali,1
+2011,2,África,128,Marruecos,17
+2011,2,África,119,Mauricio,2
+2011,2,África,121,Mozambique,1
+2011,2,África,159,Namibia,1
+2011,2,África,111,Nigeria,11
+2011,2,África,101,Senegal,1
+2011,2,África,112,Sudáfrica,100
+2011,2,África,122,Swazilandia,1
+2011,2,África,135,Tanzania,1
+2011,2,África,126,Túnez,2
+2011,2,África,136,Uganda,1
+2011,2,África,117,Zambia,1
+2011,9,Oceanía,406,Australia,262
+2011,9,Oceanía,401,Fiji,2
+2011,9,Oceanía,405,Nueva Zelandia,99
+2011,19,América,224,Argentina,5.438
+2011,19,América,236,Belice,3
+2011,19,América,221,Bolivia,9.189
+2011,19,América,220,Brasil,1.949
+2011,19,América,226,Canadá,387
+2011,19,América,202,Colombia,14.362
+2011,19,América,211,Costa Rica,159
+2011,19,América,209,Cuba,691
+2011,19,América,218,Ecuador,3.938
+2011,19,América,213,El Salvador,185
+2011,19,América,225,Estados Unidos de América,3.425
+2011,19,América,215,Guatemala,131
+2011,19,América,217,Guyana,1
+2011,19,América,208,Haití,1.188
+2011,19,América,214,Honduras,118
+2011,19,América,205,Jamaica,1
+2011,19,América,216,México,1.051
+2011,19,América,212,Nicaragua,102
+2011,19,América,210,Panamá,247
+2011,19,América,222,Paraguay,1.052
+2011,19,América,219,Perú,40.628
+2011,19,América,206,República Dominicana,1.956
+2011,19,América,241,Saint Kitts & Nevis,2
+2011,19,América,234,San Vicente y las Granadinas,1
+2011,19,América,203,Trinidad y Tobago,3
+2011,19,América,248,Turcas y Caicos,4
+2011,19,América,223,Uruguay,1.075
+2011,19,América,201,Venezuela,1.453
+2011,142,Asia,308,Afghanistán,3
+2011,142,Asia,540,Armenia,4
+2011,142,Asia,321,Bangladesh,7
+2011,142,Asia,336,China,2.295
+2011,142,Asia,305,Chipre,2
+2011,142,Asia,334,Corea del Norte,13
+2011,142,Asia,333,Corea del Sur,558
+2011,142,Asia,335,Filipinas,79
+2011,142,Asia,550,Georgia,3
+2011,142,Asia,342,Hong Kong (Región administrativa especial de China),17
+2011,142,Asia,317,India,260
+2011,142,Asia,328,Indonesia,26
+2011,142,Asia,309,Irán,10
+2011,142,Asia,307,Iraq,3
+2011,142,Asia,306,Israel,41
+2011,142,Asia,331,Japón,182
+2011,142,Asia,301,Jordania,9
+2011,142,Asia,551,Kasajstan,1
+2011,142,Asia,552,Kirguistán,3
+2011,142,Asia,311,Libano,23
+2011,142,Asia,329,Malasia,7
+2011,142,Asia,320,Nepal,15
+2011,142,Asia,324,Pakistán,87
+2011,142,Asia,332,Singapur,9
+2011,142,Asia,310,Siria,19
+2011,142,Asia,314,Sri Lanka,3
+2011,142,Asia,319,Tailandia,15
+2011,142,Asia,330,Taiwán,60
+2011,142,Asia,522,Turquia,87
+2011,142,Asia,560,Uzbekistán,2
+2011,150,Europa,518,Albania,3
+2011,150,Europa,563,Alemania,685
+2011,150,Europa,525,Andorra,2
+2011,150,Europa,509,Austria,77
+2011,150,Europa,542,Belarús,26
+2011,150,Europa,514,Bélgica,91
+2011,150,Europa,543,Bosnia y Herzegovina,6
+2011,150,Europa,527,Bulgaria,21
+2011,150,Europa,547,Croacia,18
+2011,150,Europa,507,Dinamarca,29
+2011,150,Europa,548,Eslovenia,12
+2011,150,Europa,517,España,1.508
+2011,150,Europa,549,Estonia,4
+2011,150,Europa,512,Finlandia,41
+2011,150,Europa,505,Francia,862
+2011,150,Europa,520,Grecia,13
+2011,150,Europa,515,Holanda,130
+2011,150,Europa,530,Hungria,18
+2011,150,Europa,506,Irlanda,28
+2011,150,Europa,516,Islandia,9
+2011,150,Europa,504,Italia,526
+2011,150,Europa,553,Letonia,8
+2011,150,Europa,554,Lituania,28
+2011,150,Europa,555,Macedonia,2
+2011,150,Europa,556,Moldova,9
+2011,150,Europa,513,Noruega,82
+2011,150,Europa,528,Polonia,140
+2011,150,Europa,501,Portugal,80
+2011,150,Europa,510,Reino Unido,236
+2011,150,Europa,544,República Checa,18
+2011,150,Europa,545,República Eslovaca,34
+2011,150,Europa,519,Rumania,72
+2011,150,Europa,562,Rusia,218
+2011,150,Europa,536,San Marino,1
+2011,150,Europa,546,Serbia,30
+2011,150,Europa,511,Suecia,80
+2011,150,Europa,508,Suiza,146
+2011,150,Europa,559,Ucrania,56
+2011,150,Europa,526,Yugoslavia,4
+2012,2,África,140,Angola,8
+2012,2,África,127,Argelia,4
+2012,2,África,129,Cabo Verde,1
+2012,2,África,149,Camerún,9
+2012,2,África,118,Comoras,1
+2012,2,África,144,"Congo, República del",25
+2012,2,África,107,Costa de Marfil,2
+2012,2,África,124,Egipto,17
+2012,2,África,108,Ghana,7
+2012,2,África,104,Guinea,2
+2012,2,África,137,Kenya,7
+2012,2,África,120,Madagascar,2
+2012,2,África,128,Marruecos,23
+2012,2,África,119,Mauricio,1
+2012,2,África,121,Mozambique,2
+2012,2,África,131,Niger,1
+2012,2,África,111,Nigeria,4
+2012,2,África,101,Senegal,3
+2012,2,África,112,Sudáfrica,96
+2012,2,África,126,Túnez,5
+2012,9,Oceanía,406,Australia,291
+2012,9,Oceanía,401,Fiji,1
+2012,9,Oceanía,405,Nueva Zelandia,83
+2012,19,América,224,Argentina,6.548
+2012,19,América,236,Belice,7
+2012,19,América,221,Bolivia,17.310
+2012,19,América,220,Brasil,2.426
+2012,19,América,226,Canadá,461
+2012,19,América,202,Colombia,20.875
+2012,19,América,211,Costa Rica,168
+2012,19,América,209,Cuba,736
+2012,19,América,231,Dominica,1
+2012,19,América,218,Ecuador,4.679
+2012,19,América,213,El Salvador,221
+2012,19,América,225,Estados Unidos de América,3.976
+2012,19,América,215,Guatemala,210
+2012,19,América,217,Guyana,3
+2012,19,América,208,Haití,1.948
+2012,19,América,214,Honduras,165
+2012,19,América,205,Jamaica,2
+2012,19,América,216,México,1.339
+2012,19,América,212,Nicaragua,105
+2012,19,América,210,Panamá,197
+2012,19,América,222,Paraguay,1.286
+2012,19,América,219,Perú,49.643
+2012,19,América,251,Puerto Rico,1
+2012,19,América,206,República Dominicana,4.655
+2012,19,América,203,Trinidad y Tobago,5
+2012,19,América,223,Uruguay,1.186
+2012,19,América,201,Venezuela,1.760
+2012,142,Asia,308,Afghanistán,6
+2012,142,Asia,302,Arabia Saudita,2
+2012,142,Asia,540,Armenia,2
+2012,142,Asia,321,Bangladesh,6
+2012,142,Asia,315,Camboya,1
+2012,142,Asia,336,China,2.609
+2012,142,Asia,334,Corea del Norte,10
+2012,142,Asia,333,Corea del Sur,442
+2012,142,Asia,335,Filipinas,58
+2012,142,Asia,550,Georgia,2
+2012,142,Asia,342,Hong Kong (Región administrativa especial de China),20
+2012,142,Asia,317,India,327
+2012,142,Asia,328,Indonesia,34
+2012,142,Asia,309,Irán,16
+2012,142,Asia,307,Iraq,2
+2012,142,Asia,306,Israel,66
+2012,142,Asia,331,Japón,214
+2012,142,Asia,301,Jordania,25
+2012,142,Asia,551,Kasajstan,6
+2012,142,Asia,552,Kirguistán,3
+2012,142,Asia,311,Libano,26
+2012,142,Asia,329,Malasia,8
+2012,142,Asia,320,Nepal,41
+2012,142,Asia,304,Omán,1
+2012,142,Asia,324,Pakistán,109
+2012,142,Asia,332,Singapur,8
+2012,142,Asia,310,Siria,42
+2012,142,Asia,314,Sri Lanka,8
+2012,142,Asia,319,Tailandia,16
+2012,142,Asia,330,Taiwán,74
+2012,142,Asia,522,Turquia,129
+2012,142,Asia,560,Uzbekistán,4
+2012,142,Asia,325,Viet Nam,3
+2012,150,Europa,518,Albania,2
+2012,150,Europa,563,Alemania,747
+2012,150,Europa,509,Austria,63
+2012,150,Europa,542,Belarús,27
+2012,150,Europa,514,Bélgica,138
+2012,150,Europa,543,Bosnia y Herzegovina,8
+2012,150,Europa,527,Bulgaria,15
+2012,150,Europa,547,Croacia,29
+2012,150,Europa,507,Dinamarca,57
+2012,150,Europa,548,Eslovenia,9
+2012,150,Europa,517,España,2.989
+2012,150,Europa,549,Estonia,3
+2012,150,Europa,512,Finlandia,57
+2012,150,Europa,505,Francia,1.052
+2012,150,Europa,520,Grecia,28
+2012,150,Europa,515,Holanda,159
+2012,150,Europa,530,Hungria,18
+2012,150,Europa,506,Irlanda,39
+2012,150,Europa,516,Islandia,5
+2012,150,Europa,504,Italia,562
+2012,150,Europa,553,Letonia,11
+2012,150,Europa,554,Lituania,12
+2012,150,Europa,555,Macedonia,2
+2012,150,Europa,523,Malta,2
+2012,150,Europa,556,Moldova,10
+2012,150,Europa,513,Noruega,85
+2012,150,Europa,528,Polonia,77
+2012,150,Europa,501,Portugal,166
+2012,150,Europa,510,Reino Unido,281
+2012,150,Europa,544,República Checa,36
+2012,150,Europa,545,República Eslovaca,28
+2012,150,Europa,519,Rumania,61
+2012,150,Europa,562,Rusia,245
+2012,150,Europa,536,San Marino,1
+2012,150,Europa,546,Serbia,31
+2012,150,Europa,511,Suecia,111
+2012,150,Europa,508,Suiza,148
+2012,150,Europa,559,Ucrania,75
+2012,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),1
+2013,2,África,140,Angola,1
+2013,2,África,127,Argelia,10
+2013,2,África,161,Burkina Faso,1
+2013,2,África,149,Camerún,10
+2013,2,África,144,"Congo, República del",17
+2013,2,África,107,Costa de Marfil,4
+2013,2,África,124,Egipto,17
+2013,2,África,139,Etiopia,5
+2013,2,África,108,Ghana,9
+2013,2,África,104,Guinea,1
+2013,2,África,103,Guinea- Bissau,1
+2013,2,África,137,Kenya,7
+2013,2,África,106,Liberia,1
+2013,2,África,125,Libia,2
+2013,2,África,120,Madagascar,2
+2013,2,África,128,Marruecos,23
+2013,2,África,119,Mauricio,2
+2013,2,África,121,Mozambique,3
+2013,2,África,159,Namibia,1
+2013,2,África,111,Nigeria,5
+2013,2,África,148,República Centroafricana,1
+2013,2,África,101,Senegal,5
+2013,2,África,112,Sudáfrica,94
+2013,2,África,135,Tanzania,20
+2013,2,África,109,Togo,1
+2013,2,África,126,Túnez,5
+2013,2,África,136,Uganda,1
+2013,2,África,117,Zambia,2
+2013,9,Oceanía,406,Australia,293
+2013,9,Oceanía,416,Kiribati,4
+2013,9,Oceanía,405,Nueva Zelandia,70
+2013,9,Oceanía,403,Tonga (Isla Tonga),1
+2013,19,América,224,Argentina,7.436
+2013,19,América,236,Belice,2
+2013,19,América,221,Bolivia,30.611
+2013,19,América,220,Brasil,2.252
+2013,19,América,226,Canadá,398
+2013,19,América,202,Colombia,30.138
+2013,19,América,211,Costa Rica,171
+2013,19,América,209,Cuba,740
+2013,19,América,218,Ecuador,4.992
+2013,19,América,213,El Salvador,220
+2013,19,América,225,Estados Unidos de América,3.749
+2013,19,América,215,Guatemala,202
+2013,19,América,217,Guyana,3
+2013,19,América,208,Haití,2.868
+2013,19,América,214,Honduras,159
+2013,19,América,205,Jamaica,3
+2013,19,América,216,México,1.356
+2013,19,América,212,Nicaragua,94
+2013,19,América,210,Panamá,171
+2013,19,América,222,Paraguay,1.331
+2013,19,América,219,Perú,48.517
+2013,19,América,251,Puerto Rico,1
+2013,19,América,206,República Dominicana,4.116
+2013,19,América,241,Saint Kitts & Nevis,1
+2013,19,América,234,San Vicente y las Granadinas,2
+2013,19,América,233,Santa Lucia y Islas Occidentales,1
+2013,19,América,203,Trinidad y Tobago,3
+2013,19,América,223,Uruguay,956
+2013,19,América,201,Venezuela,2.015
+2013,142,Asia,308,Afghanistán,15
+2013,142,Asia,302,Arabia Saudita,2
+2013,142,Asia,541,Azerbaiyan,1
+2013,142,Asia,321,Bangladesh,2
+2013,142,Asia,315,Camboya,1
+2013,142,Asia,336,China,2.669
+2013,142,Asia,305,Chipre,2
+2013,142,Asia,334,Corea del Norte,7
+2013,142,Asia,333,Corea del Sur,445
+2013,142,Asia,335,Filipinas,58
+2013,142,Asia,550,Georgia,3
+2013,142,Asia,342,Hong Kong (Región administrativa especial de China),25
+2013,142,Asia,317,India,293
+2013,142,Asia,328,Indonesia,29
+2013,142,Asia,309,Irán,29
+2013,142,Asia,307,Iraq,3
+2013,142,Asia,306,Israel,37
+2013,142,Asia,331,Japón,169
+2013,142,Asia,301,Jordania,18
+2013,142,Asia,551,Kasajstan,1
+2013,142,Asia,552,Kirguistán,1
+2013,142,Asia,316,Laos,1
+2013,142,Asia,311,Libano,40
+2013,142,Asia,329,Malasia,10
+2013,142,Asia,320,Nepal,30
+2013,142,Asia,304,Omán,1
+2013,142,Asia,324,Pakistán,128
+2013,142,Asia,332,Singapur,5
+2013,142,Asia,310,Siria,42
+2013,142,Asia,314,Sri Lanka,5
+2013,142,Asia,319,Tailandia,28
+2013,142,Asia,330,Taiwán,71
+2013,142,Asia,522,Turquia,90
+2013,142,Asia,560,Uzbekistán,2
+2013,142,Asia,325,Viet Nam,3
+2013,150,Europa,518,Albania,1
+2013,150,Europa,563,Alemania,687
+2013,150,Europa,525,Andorra,1
+2013,150,Europa,509,Austria,105
+2013,150,Europa,542,Belarús,18
+2013,150,Europa,514,Bélgica,123
+2013,150,Europa,543,Bosnia y Herzegovina,4
+2013,150,Europa,527,Bulgaria,26
+2013,150,Europa,547,Croacia,11
+2013,150,Europa,507,Dinamarca,55
+2013,150,Europa,548,Eslovenia,10
+2013,150,Europa,517,España,5.737
+2013,150,Europa,549,Estonia,4
+2013,150,Europa,512,Finlandia,60
+2013,150,Europa,505,Francia,1.095
+2013,150,Europa,520,Grecia,24
+2013,150,Europa,515,Holanda,145
+2013,150,Europa,530,Hungria,29
+2013,150,Europa,506,Irlanda,40
+2013,150,Europa,516,Islandia,1
+2013,150,Europa,504,Italia,724
+2013,150,Europa,553,Letonia,15
+2013,150,Europa,554,Lituania,13
+2013,150,Europa,555,Macedonia,1
+2013,150,Europa,523,Malta,1
+2013,150,Europa,556,Moldova,10
+2013,150,Europa,513,Noruega,65
+2013,150,Europa,528,Polonia,127
+2013,150,Europa,501,Portugal,334
+2013,150,Europa,510,Reino Unido,279
+2013,150,Europa,544,República Checa,70
+2013,150,Europa,545,República Eslovaca,100
+2013,150,Europa,519,Rumania,122
+2013,150,Europa,562,Rusia,249
+2013,150,Europa,546,Serbia,16
+2013,150,Europa,511,Suecia,94
+2013,150,Europa,508,Suiza,145
+2013,150,Europa,559,Ucrania,54
+2013,999,Otros,247,Antillas Neerlandesas,1
+2013,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),10
+2014,2,África,140,Angola,1
+2014,2,África,127,Argelia,8
+2014,2,África,149,Camerún,10
+2014,2,África,144,"Congo, República del",16
+2014,2,África,107,Costa de Marfil,2
+2014,2,África,124,Egipto,18
+2014,2,África,108,Ghana,9
+2014,2,África,104,Guinea,3
+2014,2,África,147,Guinea Ecuatorial,1
+2014,2,África,137,Kenya,8
+2014,2,África,106,Liberia,1
+2014,2,África,120,Madagascar,1
+2014,2,África,133,Mali,6
+2014,2,África,128,Marruecos,18
+2014,2,África,119,Mauricio,1
+2014,2,África,121,Mozambique,1
+2014,2,África,111,Nigeria,7
+2014,2,África,148,República Centroafricana,1
+2014,2,África,101,Senegal,8
+2014,2,África,138,Somalia,1
+2014,2,África,112,Sudáfrica,93
+2014,2,África,135,Tanzania,1
+2014,2,África,126,Túnez,2
+2014,2,África,117,Zambia,1
+2014,2,África,116,Zimbabwe,1
+2014,9,Oceanía,406,Australia,244
+2014,9,Oceanía,405,Nueva Zelandia,68
+2014,9,Oceanía,403,Tonga (Isla Tonga),1
+2014,19,América,224,Argentina,8.326
+2014,19,América,207,Bahamas,5
+2014,19,América,236,Belice,9
+2014,19,América,221,Bolivia,34.978
+2014,19,América,220,Brasil,2.405
+2014,19,América,226,Canadá,369
+2014,19,América,202,Colombia,33.939
+2014,19,América,211,Costa Rica,188
+2014,19,América,209,Cuba,948
+2014,19,América,231,Dominica,1
+2014,19,América,218,Ecuador,5.309
+2014,19,América,213,El Salvador,182
+2014,19,América,225,Estados Unidos de América,3.796
+2014,19,América,232,Granada,1
+2014,19,América,215,Guatemala,187
+2014,19,América,217,Guyana,3
+2014,19,América,208,Haití,4.407
+2014,19,América,214,Honduras,184
+2014,19,América,205,Jamaica,6
+2014,19,América,216,México,1.458
+2014,19,América,212,Nicaragua,87
+2014,19,América,210,Panamá,136
+2014,19,América,222,Paraguay,1.391
+2014,19,América,219,Perú,49.900
+2014,19,América,206,República Dominicana,3.603
+2014,19,América,241,Saint Kitts & Nevis,2
+2014,19,América,234,San Vicente y las Granadinas,1
+2014,19,América,233,Santa Lucia y Islas Occidentales,1
+2014,19,América,203,Trinidad y Tobago,7
+2014,19,América,223,Uruguay,957
+2014,19,América,201,Venezuela,3.557
+2014,142,Asia,308,Afghanistán,4
+2014,142,Asia,540,Armenia,2
+2014,142,Asia,541,Azerbaiyan,2
+2014,142,Asia,321,Bangladesh,7
+2014,142,Asia,336,China,3.010
+2014,142,Asia,305,Chipre,3
+2014,142,Asia,334,Corea del Norte,4
+2014,142,Asia,333,Corea del Sur,460
+2014,142,Asia,335,Filipinas,88
+2014,142,Asia,550,Georgia,4
+2014,142,Asia,342,Hong Kong (Región administrativa especial de China),16
+2014,142,Asia,317,India,308
+2014,142,Asia,328,Indonesia,54
+2014,142,Asia,309,Irán,35
+2014,142,Asia,307,Iraq,1
+2014,142,Asia,306,Israel,89
+2014,142,Asia,331,Japón,251
+2014,142,Asia,301,Jordania,15
+2014,142,Asia,551,Kasajstan,1
+2014,142,Asia,552,Kirguistán,2
+2014,142,Asia,311,Libano,22
+2014,142,Asia,345,Macao,1
+2014,142,Asia,329,Malasia,12
+2014,142,Asia,320,Nepal,28
+2014,142,Asia,324,Pakistán,74
+2014,142,Asia,346,República del Yemen,1
+2014,142,Asia,332,Singapur,2
+2014,142,Asia,310,Siria,44
+2014,142,Asia,314,Sri Lanka,9
+2014,142,Asia,319,Tailandia,21
+2014,142,Asia,330,Taiwán,83
+2014,142,Asia,522,Turquia,100
+2014,142,Asia,560,Uzbekistán,1
+2014,142,Asia,325,Viet Nam,12
+2014,150,Europa,518,Albania,2
+2014,150,Europa,563,Alemania,845
+2014,150,Europa,525,Andorra,2
+2014,150,Europa,509,Austria,137
+2014,150,Europa,542,Belarús,12
+2014,150,Europa,514,Bélgica,126
+2014,150,Europa,543,Bosnia y Herzegovina,3
+2014,150,Europa,527,Bulgaria,31
+2014,150,Europa,547,Croacia,23
+2014,150,Europa,507,Dinamarca,60
+2014,150,Europa,548,Eslovenia,19
+2014,150,Europa,517,España,6.262
+2014,150,Europa,549,Estonia,8
+2014,150,Europa,512,Finlandia,70
+2014,150,Europa,505,Francia,1.190
+2014,150,Europa,520,Grecia,38
+2014,150,Europa,515,Holanda,170
+2014,150,Europa,530,Hungria,65
+2014,150,Europa,506,Irlanda,34
+2014,150,Europa,516,Islandia,3
+2014,150,Europa,504,Italia,723
+2014,150,Europa,553,Letonia,11
+2014,150,Europa,554,Lituania,10
+2014,150,Europa,532,Luxemburgo,2
+2014,150,Europa,523,Malta,2
+2014,150,Europa,556,Moldova,2
+2014,150,Europa,513,Noruega,75
+2014,150,Europa,528,Polonia,112
+2014,150,Europa,501,Portugal,381
+2014,150,Europa,510,Reino Unido,280
+2014,150,Europa,544,República Checa,64
+2014,150,Europa,545,República Eslovaca,55
+2014,150,Europa,519,Rumania,117
+2014,150,Europa,562,Rusia,322
+2014,150,Europa,546,Serbia,20
+2014,150,Europa,511,Suecia,81
+2014,150,Europa,508,Suiza,142
+2014,150,Europa,559,Ucrania,65
+2014,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),11
+2015,2,África,140,Angola,13
+2015,2,África,127,Argelia,12
+2015,2,África,150,Benin,2
+2015,2,África,113,Botswana,1
+2015,2,África,149,Camerún,7
+2015,2,África,144,"Congo, República del",13
+2015,2,África,107,Costa de Marfil,2
+2015,2,África,124,Egipto,32
+2015,2,África,108,Ghana,17
+2015,2,África,104,Guinea,4
+2015,2,África,147,Guinea Ecuatorial,1
+2015,2,África,103,Guinea- Bissau,1
+2015,2,África,137,Kenya,11
+2015,2,África,125,Libia,1
+2015,2,África,120,Madagascar,2
+2015,2,África,133,Mali,1
+2015,2,África,128,Marruecos,36
+2015,2,África,119,Mauricio,2
+2015,2,África,134,Mauritania,1
+2015,2,África,121,Mozambique,8
+2015,2,África,159,Namibia,4
+2015,2,África,111,Nigeria,11
+2015,2,África,148,República Centroafricana,1
+2015,2,África,101,Senegal,8
+2015,2,África,138,Somalia,1
+2015,2,África,112,Sudáfrica,89
+2015,2,África,109,Togo,2
+2015,2,África,126,Túnez,10
+2015,2,África,136,Uganda,1
+2015,2,África,116,Zimbabwe,1
+2015,9,Oceanía,406,Australia,235
+2015,9,Oceanía,401,Fiji,1
+2015,9,Oceanía,416,Kiribati,3
+2015,9,Oceanía,405,Nueva Zelandia,71
+2015,19,América,224,Argentina,9.605
+2015,19,América,207,Bahamas,5
+2015,19,América,236,Belice,10
+2015,19,América,221,Bolivia,39.126
+2015,19,América,220,Brasil,3.105
+2015,19,América,226,Canadá,290
+2015,19,América,202,Colombia,44.535
+2015,19,América,211,Costa Rica,216
+2015,19,América,209,Cuba,1.559
+2015,19,América,218,Ecuador,6.374
+2015,19,América,213,El Salvador,279
+2015,19,América,225,Estados Unidos de América,3.413
+2015,19,América,232,Granada,2
+2015,19,América,215,Guatemala,162
+2015,19,América,208,Haití,10.071
+2015,19,América,214,Honduras,201
+2015,19,América,205,Jamaica,6
+2015,19,América,216,México,1.607
+2015,19,América,212,Nicaragua,103
+2015,19,América,210,Panamá,131
+2015,19,América,222,Paraguay,1.556
+2015,19,América,219,Perú,59.767
+2015,19,América,251,Puerto Rico,2
+2015,19,América,206,República Dominicana,3.517
+2015,19,América,241,Saint Kitts & Nevis,1
+2015,19,América,233,Santa Lucia y Islas Occidentales,2
+2015,19,América,235,Suriname,5
+2015,19,América,203,Trinidad y Tobago,5
+2015,19,América,223,Uruguay,1.072
+2015,19,América,201,Venezuela,9.730
+2015,142,Asia,308,Afghanistán,12
+2015,142,Asia,540,Armenia,2
+2015,142,Asia,541,Azerbaiyan,1
+2015,142,Asia,321,Bangladesh,11
+2015,142,Asia,336,China,3.583
+2015,142,Asia,305,Chipre,5
+2015,142,Asia,334,Corea del Norte,1
+2015,142,Asia,333,Corea del Sur,661
+2015,142,Asia,335,Filipinas,177
+2015,142,Asia,550,Georgia,3
+2015,142,Asia,342,Hong Kong (Región administrativa especial de China),7
+2015,142,Asia,317,India,414
+2015,142,Asia,328,Indonesia,62
+2015,142,Asia,309,Irán,54
+2015,142,Asia,307,Iraq,5
+2015,142,Asia,306,Israel,82
+2015,142,Asia,331,Japón,262
+2015,142,Asia,301,Jordania,26
+2015,142,Asia,551,Kasajstan,2
+2015,142,Asia,552,Kirguistán,2
+2015,142,Asia,316,Laos,1
+2015,142,Asia,311,Libano,24
+2015,142,Asia,329,Malasia,16
+2015,142,Asia,326,Myanmar (ex Birmania),1
+2015,142,Asia,320,Nepal,33
+2015,142,Asia,304,Omán,1
+2015,142,Asia,324,Pakistán,147
+2015,142,Asia,346,República del Yemen,1
+2015,142,Asia,332,Singapur,7
+2015,142,Asia,310,Siria,77
+2015,142,Asia,314,Sri Lanka,7
+2015,142,Asia,319,Tailandia,27
+2015,142,Asia,330,Taiwán,75
+2015,142,Asia,522,Turquia,148
+2015,142,Asia,560,Uzbekistán,1
+2015,142,Asia,325,Viet Nam,13
+2015,150,Europa,518,Albania,7
+2015,150,Europa,563,Alemania,778
+2015,150,Europa,525,Andorra,2
+2015,150,Europa,509,Austria,139
+2015,150,Europa,542,Belarús,35
+2015,150,Europa,514,Bélgica,174
+2015,150,Europa,543,Bosnia y Herzegovina,39
+2015,150,Europa,527,Bulgaria,96
+2015,150,Europa,547,Croacia,28
+2015,150,Europa,507,Dinamarca,68
+2015,150,Europa,548,Eslovenia,14
+2015,150,Europa,517,España,6.313
+2015,150,Europa,549,Estonia,10
+2015,150,Europa,512,Finlandia,32
+2015,150,Europa,505,Francia,1.339
+2015,150,Europa,520,Grecia,49
+2015,150,Europa,515,Holanda,151
+2015,150,Europa,530,Hungria,27
+2015,150,Europa,506,Irlanda,46
+2015,150,Europa,516,Islandia,3
+2015,150,Europa,504,Italia,865
+2015,150,Europa,553,Letonia,24
+2015,150,Europa,554,Lituania,14
+2015,150,Europa,532,Luxemburgo,3
+2015,150,Europa,555,Macedonia,2
+2015,150,Europa,523,Malta,1
+2015,150,Europa,556,Moldova,4
+2015,150,Europa,513,Noruega,67
+2015,150,Europa,528,Polonia,154
+2015,150,Europa,501,Portugal,466
+2015,150,Europa,510,Reino Unido,248
+2015,150,Europa,544,República Checa,52
+2015,150,Europa,545,República Eslovaca,22
+2015,150,Europa,519,Rumania,128
+2015,150,Europa,562,Rusia,339
+2015,150,Europa,546,Serbia,23
+2015,150,Europa,511,Suecia,84
+2015,150,Europa,508,Suiza,146
+2015,150,Europa,559,Ucrania,91
+2015,999,Otros,247,Antillas Neerlandesas,1
+2015,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),12
+2016,2,África,140,Angola,19
+2016,2,África,127,Argelia,9
+2016,2,África,150,Benin,3
+2016,2,África,161,Burkina Faso,1
+2016,2,África,149,Camerún,11
+2016,2,África,144,"Congo, República del",12
+2016,2,África,107,Costa de Marfil,2
+2016,2,África,124,Egipto,41
+2016,2,África,163,Eritrea,2
+2016,2,África,139,Etiopia,2
+2016,2,África,108,Ghana,17
+2016,2,África,104,Guinea,4
+2016,2,África,147,Guinea Ecuatorial,1
+2016,2,África,137,Kenya,7
+2016,2,África,114,Lesotho,1
+2016,2,África,125,Libia,1
+2016,2,África,120,Madagascar,3
+2016,2,África,133,Mali,1
+2016,2,África,128,Marruecos,29
+2016,2,África,121,Mozambique,5
+2016,2,África,111,Nigeria,5
+2016,2,África,101,Senegal,7
+2016,2,África,112,Sudáfrica,65
+2016,2,África,109,Togo,1
+2016,2,África,126,Túnez,12
+2016,9,Oceanía,406,Australia,154
+2016,9,Oceanía,405,Nueva Zelandia,50
+2016,19,América,224,Argentina,8.176
+2016,19,América,207,Bahamas,1
+2016,19,América,236,Belice,6
+2016,19,América,221,Bolivia,27.852
+2016,19,América,220,Brasil,3.276
+2016,19,América,226,Canadá,249
+2016,19,América,202,Colombia,47.352
+2016,19,América,211,Costa Rica,155
+2016,19,América,209,Cuba,1.499
+2016,19,América,218,Ecuador,7.261
+2016,19,América,213,El Salvador,259
+2016,19,América,225,Estados Unidos de América,2.673
+2016,19,América,215,Guatemala,148
+2016,19,América,208,Haití,27.395
+2016,19,América,214,Honduras,188
+2016,19,América,205,Jamaica,5
+2016,19,América,216,México,1.346
+2016,19,América,212,Nicaragua,83
+2016,19,América,210,Panamá,132
+2016,19,América,222,Paraguay,1.422
+2016,19,América,219,Perú,53.624
+2016,19,América,251,Puerto Rico,1
+2016,19,América,206,República Dominicana,2.360
+2016,19,América,235,Suriname,4
+2016,19,América,203,Trinidad y Tobago,3
+2016,19,América,223,Uruguay,858
+2016,19,América,201,Venezuela,26.623
+2016,142,Asia,308,Afghanistán,15
+2016,142,Asia,540,Armenia,4
+2016,142,Asia,321,Bangladesh,21
+2016,142,Asia,336,China,3.569
+2016,142,Asia,305,Chipre,1
+2016,142,Asia,334,Corea del Norte,1
+2016,142,Asia,333,Corea del Sur,505
+2016,142,Asia,335,Filipinas,187
+2016,142,Asia,550,Georgia,4
+2016,142,Asia,342,Hong Kong (Región administrativa especial de China),6
+2016,142,Asia,317,India,401
+2016,142,Asia,328,Indonesia,59
+2016,142,Asia,309,Irán,44
+2016,142,Asia,307,Iraq,6
+2016,142,Asia,306,Israel,61
+2016,142,Asia,331,Japón,207
+2016,142,Asia,301,Jordania,27
+2016,142,Asia,551,Kasajstan,5
+2016,142,Asia,311,Libano,33
+2016,142,Asia,345,Macao,4
+2016,142,Asia,329,Malasia,11
+2016,142,Asia,337,Mongolia,1
+2016,142,Asia,326,Myanmar (ex Birmania),1
+2016,142,Asia,320,Nepal,70
+2016,142,Asia,304,Omán,1
+2016,142,Asia,324,Pakistán,199
+2016,142,Asia,332,Singapur,6
+2016,142,Asia,310,Siria,137
+2016,142,Asia,314,Sri Lanka,10
+2016,142,Asia,319,Tailandia,36
+2016,142,Asia,330,Taiwán,61
+2016,142,Asia,522,Turquia,127
+2016,142,Asia,560,Uzbekistán,4
+2016,142,Asia,325,Viet Nam,4
+2016,150,Europa,518,Albania,11
+2016,150,Europa,563,Alemania,582
+2016,150,Europa,525,Andorra,1
+2016,150,Europa,509,Austria,74
+2016,150,Europa,542,Belarús,17
+2016,150,Europa,514,Bélgica,131
+2016,150,Europa,543,Bosnia y Herzegovina,9
+2016,150,Europa,527,Bulgaria,109
+2016,150,Europa,547,Croacia,38
+2016,150,Europa,507,Dinamarca,38
+2016,150,Europa,548,Eslovenia,15
+2016,150,Europa,517,España,4.458
+2016,150,Europa,549,Estonia,3
+2016,150,Europa,512,Finlandia,36
+2016,150,Europa,505,Francia,1.108
+2016,150,Europa,520,Grecia,44
+2016,150,Europa,515,Holanda,101
+2016,150,Europa,530,Hungria,21
+2016,150,Europa,506,Irlanda,40
+2016,150,Europa,516,Islandia,2
+2016,150,Europa,504,Italia,716
+2016,150,Europa,553,Letonia,8
+2016,150,Europa,554,Lituania,10
+2016,150,Europa,532,Luxemburgo,1
+2016,150,Europa,555,Macedonia,2
+2016,150,Europa,523,Malta,1
+2016,150,Europa,556,Moldova,4
+2016,150,Europa,513,Noruega,45
+2016,150,Europa,528,Polonia,113
+2016,150,Europa,501,Portugal,377
+2016,150,Europa,510,Reino Unido,55
+2016,150,Europa,544,República Checa,48
+2016,150,Europa,545,República Eslovaca,16
+2016,150,Europa,519,Rumania,136
+2016,150,Europa,562,Rusia,331
+2016,150,Europa,546,Serbia,19
+2016,150,Europa,511,Suecia,65
+2016,150,Europa,508,Suiza,119
+2016,150,Europa,559,Ucrania,103
+2016,999,Otros,564,Republica Federal de Yugoslavia (Serbia y Montenegro),2
