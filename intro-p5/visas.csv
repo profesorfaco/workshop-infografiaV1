@@ -24,19 +24,19 @@ year,id_continent,continent,id_country,country,number_visas
 2005,9,Oceanía,418,Islas Salomón,2
 2005,9,Oceanía,405,Nueva Zelandia,52
 2005,9,Oceanía,403,Tonga (Isla Tonga),1
-2005,19,América,224,Argentina,6.263
+2005,19,América,224,Argentina,6263
 2005,19,América,207,Bahamas,1
 2005,19,América,236,Belice,3
-2005,19,América,221,Bolivia,2.420
-2005,19,América,220,Brasil,1.160
+2005,19,América,221,Bolivia,2420
+2005,19,América,220,Brasil,1160
 2005,19,América,226,Canadá,272
-2005,19,América,202,Colombia,2.179
+2005,19,América,202,Colombia,2179
 2005,19,América,211,Costa Rica,58
 2005,19,América,209,Cuba,664
 2005,19,América,231,Dominica,1
-2005,19,América,218,Ecuador,2.956
+2005,19,América,218,Ecuador,2956
 2005,19,América,213,El Salvador,55
-2005,19,América,225,Estados Unidos de América,1.984
+2005,19,América,225,Estados Unidos de América,1984
 2005,19,América,232,Granada,1
 2005,19,América,215,Guatemala,57
 2005,19,América,208,Haití,12
@@ -46,15 +46,15 @@ year,id_continent,continent,id_country,country,number_visas
 2005,19,América,212,Nicaragua,43
 2005,19,América,210,Panamá,72
 2005,19,América,222,Paraguay,403
-2005,19,América,219,Perú,25.966
+2005,19,América,219,Perú,25966
 2005,19,América,206,República Dominicana,172
 2005,19,América,234,San Vicente y las Granadinas,1
 2005,19,América,203,Trinidad y Tobago,4
-2005,19,América,223,Uruguay,1.077
+2005,19,América,223,Uruguay,1077
 2005,19,América,201,Venezuela,567
 2005,142,Asia,308,Afghanistán,8
 2005,142,Asia,302,Arabia Saudita,1
-2005,142,Asia,336,China,1.131
+2005,142,Asia,336,China,1131
 2005,142,Asia,334,Corea del Norte,20
 2005,142,Asia,333,Corea del Sur,315
 2005,142,Asia,335,Filipinas,22
@@ -146,17 +146,17 @@ year,id_continent,continent,id_country,country,number_visas
 2006,9,Oceanía,406,Australia,160
 2006,9,Oceanía,418,Islas Salomón,1
 2006,9,Oceanía,405,Nueva Zelandia,44
-2006,19,América,224,Argentina,6.114
+2006,19,América,224,Argentina,6114
 2006,19,América,236,Belice,1
-2006,19,América,221,Bolivia,2.815
-2006,19,América,220,Brasil,1.451
+2006,19,América,221,Bolivia,2815
+2006,19,América,220,Brasil,1451
 2006,19,América,226,Canadá,246
-2006,19,América,202,Colombia,3.195
+2006,19,América,202,Colombia,3195
 2006,19,América,211,Costa Rica,63
 2006,19,América,209,Cuba,642
-2006,19,América,218,Ecuador,3.135
+2006,19,América,218,Ecuador,3135
 2006,19,América,213,El Salvador,53
-2006,19,América,225,Estados Unidos de América,1.926
+2006,19,América,225,Estados Unidos de América,1926
 2006,19,América,232,Granada,1
 2006,19,América,215,Guatemala,60
 2006,19,América,217,Guyana,3
@@ -167,16 +167,16 @@ year,id_continent,continent,id_country,country,number_visas
 2006,19,América,212,Nicaragua,44
 2006,19,América,210,Panamá,89
 2006,19,América,222,Paraguay,447
-2006,19,América,219,Perú,32.746
+2006,19,América,219,Perú,32746
 2006,19,América,206,República Dominicana,206
 2006,19,América,234,San Vicente y las Granadinas,3
 2006,19,América,203,Trinidad y Tobago,9
-2006,19,América,223,Uruguay,1.099
+2006,19,América,223,Uruguay,1099
 2006,19,América,201,Venezuela,618
 2006,142,Asia,308,Afghanistán,4
 2006,142,Asia,302,Arabia Saudita,2
 2006,142,Asia,540,Armenia,2
-2006,142,Asia,336,China,1.210
+2006,142,Asia,336,China,1210
 2006,142,Asia,334,Corea del Norte,20
 2006,142,Asia,333,Corea del Sur,345
 2006,142,Asia,335,Filipinas,27
@@ -262,18 +262,18 @@ year,id_continent,continent,id_country,country,number_visas
 2007,9,Oceanía,406,Australia,145
 2007,9,Oceanía,418,Islas Salomón,2
 2007,9,Oceanía,405,Nueva Zelandia,59
-2007,19,América,224,Argentina,5.656
+2007,19,América,224,Argentina,5656
 2007,19,América,207,Bahamas,2
 2007,19,América,236,Belice,3
-2007,19,América,221,Bolivia,7.448
-2007,19,América,220,Brasil,1.810
+2007,19,América,221,Bolivia,7448
+2007,19,América,220,Brasil,1810
 2007,19,América,226,Canadá,243
-2007,19,América,202,Colombia,4.834
+2007,19,América,202,Colombia,4834
 2007,19,América,211,Costa Rica,91
 2007,19,América,209,Cuba,736
-2007,19,América,218,Ecuador,4.352
+2007,19,América,218,Ecuador,4352
 2007,19,América,213,El Salvador,79
-2007,19,América,225,Estados Unidos de América,2.041
+2007,19,América,225,Estados Unidos de América,2041
 2007,19,América,215,Guatemala,64
 2007,19,América,217,Guyana,2
 2007,19,América,208,Haití,119
@@ -283,14 +283,14 @@ year,id_continent,continent,id_country,country,number_visas
 2007,19,América,212,Nicaragua,42
 2007,19,América,210,Panamá,161
 2007,19,América,222,Paraguay,782
-2007,19,América,219,Perú,63.869
+2007,19,América,219,Perú,63869
 2007,19,América,206,República Dominicana,354
 2007,19,América,234,San Vicente y las Granadinas,3
 2007,19,América,203,Trinidad y Tobago,14
-2007,19,América,223,Uruguay,1.275
+2007,19,América,223,Uruguay,1275
 2007,19,América,201,Venezuela,773
 2007,142,Asia,308,Afghanistán,5
-2007,142,Asia,336,China,1.517
+2007,142,Asia,336,China,1517
 2007,142,Asia,334,Corea del Norte,17
 2007,142,Asia,333,Corea del Sur,320
 2007,142,Asia,335,Filipinas,21
@@ -377,19 +377,19 @@ year,id_continent,continent,id_country,country,number_visas
 2008,9,Oceanía,405,Nueva Zelandia,88
 2008,9,Oceanía,403,Tonga (Isla Tonga),1
 2008,19,América,240,Antigua y Barbuda,1
-2008,19,América,224,Argentina,5.345
+2008,19,América,224,Argentina,5345
 2008,19,América,207,Bahamas,1
 2008,19,América,236,Belice,4
 2008,19,América,244,Bermudas,1
-2008,19,América,221,Bolivia,5.374
-2008,19,América,220,Brasil,1.641
+2008,19,América,221,Bolivia,5374
+2008,19,América,220,Brasil,1641
 2008,19,América,226,Canadá,294
-2008,19,América,202,Colombia,5.563
+2008,19,América,202,Colombia,5563
 2008,19,América,211,Costa Rica,83
 2008,19,América,209,Cuba,706
-2008,19,América,218,Ecuador,3.933
+2008,19,América,218,Ecuador,3933
 2008,19,América,213,El Salvador,113
-2008,19,América,225,Estados Unidos de América,2.377
+2008,19,América,225,Estados Unidos de América,2377
 2008,19,América,215,Guatemala,98
 2008,19,América,217,Guyana,4
 2008,19,América,208,Haití,180
@@ -399,17 +399,17 @@ year,id_continent,continent,id_country,country,number_visas
 2008,19,América,212,Nicaragua,76
 2008,19,América,210,Panamá,305
 2008,19,América,222,Paraguay,824
-2008,19,América,219,Perú,47.336
+2008,19,América,219,Perú,47336
 2008,19,América,206,República Dominicana,420
 2008,19,América,234,San Vicente y las Granadinas,4
 2008,19,América,203,Trinidad y Tobago,13
-2008,19,América,223,Uruguay,1.271
+2008,19,América,223,Uruguay,1271
 2008,19,América,201,Venezuela,819
 2008,142,Asia,308,Afghanistán,1
 2008,142,Asia,540,Armenia,2
 2008,142,Asia,321,Bangladesh,4
 2008,142,Asia,318,Bhután,1
-2008,142,Asia,336,China,1.659
+2008,142,Asia,336,China,1659
 2008,142,Asia,334,Corea del Norte,23
 2008,142,Asia,333,Corea del Sur,376
 2008,142,Asia,335,Filipinas,36
@@ -503,17 +503,17 @@ year,id_continent,continent,id_country,country,number_visas
 2009,9,Oceanía,405,Nueva Zelandia,81
 2009,9,Oceanía,404,Samoa Occidental,1
 2009,9,Oceanía,403,Tonga (Isla Tonga),1
-2009,19,América,224,Argentina,5.453
+2009,19,América,224,Argentina,5453
 2009,19,América,236,Belice,1
-2009,19,América,221,Bolivia,7.801
-2009,19,América,220,Brasil,1.651
+2009,19,América,221,Bolivia,7801
+2009,19,América,220,Brasil,1651
 2009,19,América,226,Canadá,266
-2009,19,América,202,Colombia,7.697
+2009,19,América,202,Colombia,7697
 2009,19,América,211,Costa Rica,99
 2009,19,América,209,Cuba,732
-2009,19,América,218,Ecuador,4.674
+2009,19,América,218,Ecuador,4674
 2009,19,América,213,El Salvador,115
-2009,19,América,225,Estados Unidos de América,2.615
+2009,19,América,225,Estados Unidos de América,2615
 2009,19,América,232,Granada,1
 2009,19,América,215,Guatemala,98
 2009,19,América,217,Guyana,2
@@ -524,20 +524,20 @@ year,id_continent,continent,id_country,country,number_visas
 2009,19,América,212,Nicaragua,83
 2009,19,América,210,Panamá,322
 2009,19,América,222,Paraguay,874
-2009,19,América,219,Perú,56.586
+2009,19,América,219,Perú,56586
 2009,19,América,206,República Dominicana,687
 2009,19,América,234,San Vicente y las Granadinas,2
 2009,19,América,235,Suriname,4
 2009,19,América,203,Trinidad y Tobago,4
 2009,19,América,248,Turcas y Caicos,4
-2009,19,América,223,Uruguay,1.171
-2009,19,América,201,Venezuela,1.013
+2009,19,América,223,Uruguay,1171
+2009,19,América,201,Venezuela,1013
 2009,142,Asia,308,Afghanistán,2
 2009,142,Asia,302,Arabia Saudita,1
 2009,142,Asia,540,Armenia,3
 2009,142,Asia,541,Azerbaiyan,3
 2009,142,Asia,321,Bangladesh,7
-2009,142,Asia,336,China,2.054
+2009,142,Asia,336,China,2054
 2009,142,Asia,334,Corea del Norte,36
 2009,142,Asia,333,Corea del Sur,425
 2009,142,Asia,335,Filipinas,49
@@ -572,7 +572,7 @@ year,id_continent,continent,id_country,country,number_visas
 2009,150,Europa,547,Croacia,16
 2009,150,Europa,507,Dinamarca,43
 2009,150,Europa,548,Eslovenia,6
-2009,150,Europa,517,España,1.092
+2009,150,Europa,517,España,1092
 2009,150,Europa,549,Estonia,1
 2009,150,Europa,512,Finlandia,33
 2009,150,Europa,505,Francia,674
@@ -625,17 +625,17 @@ year,id_continent,continent,id_country,country,number_visas
 2010,9,Oceanía,406,Australia,186
 2010,9,Oceanía,401,Fiji,1
 2010,9,Oceanía,405,Nueva Zelandia,75
-2010,19,América,224,Argentina,5.387
+2010,19,América,224,Argentina,5387
 2010,19,América,236,Belice,5
-2010,19,América,221,Bolivia,7.423
-2010,19,América,220,Brasil,1.818
+2010,19,América,221,Bolivia,7423
+2010,19,América,220,Brasil,1818
 2010,19,América,226,Canadá,341
-2010,19,América,202,Colombia,8.921
+2010,19,América,202,Colombia,8921
 2010,19,América,211,Costa Rica,117
 2010,19,América,209,Cuba,744
-2010,19,América,218,Ecuador,3.624
+2010,19,América,218,Ecuador,3624
 2010,19,América,213,El Salvador,138
-2010,19,América,225,Estados Unidos de América,3.287
+2010,19,América,225,Estados Unidos de América,3287
 2010,19,América,215,Guatemala,118
 2010,19,América,217,Guyana,2
 2010,19,América,208,Haití,744
@@ -645,17 +645,17 @@ year,id_continent,continent,id_country,country,number_visas
 2010,19,América,212,Nicaragua,80
 2010,19,América,210,Panamá,224
 2010,19,América,222,Paraguay,889
-2010,19,América,219,Perú,38.048
-2010,19,América,206,República Dominicana,1.152
+2010,19,América,219,Perú,38048
+2010,19,América,206,República Dominicana,1152
 2010,19,América,241,Saint Kitts & Nevis,1
 2010,19,América,235,Suriname,1
 2010,19,América,203,Trinidad y Tobago,7
-2010,19,América,223,Uruguay,1.190
-2010,19,América,201,Venezuela,1.091
+2010,19,América,223,Uruguay,1190
+2010,19,América,201,Venezuela,1091
 2010,142,Asia,308,Afghanistán,1
 2010,142,Asia,540,Armenia,1
 2010,142,Asia,321,Bangladesh,4
-2010,142,Asia,336,China,2.041
+2010,142,Asia,336,China,2041
 2010,142,Asia,334,Corea del Norte,12
 2010,142,Asia,333,Corea del Sur,544
 2010,142,Asia,335,Filipinas,75
@@ -691,7 +691,7 @@ year,id_continent,continent,id_country,country,number_visas
 2010,150,Europa,547,Croacia,13
 2010,150,Europa,507,Dinamarca,45
 2010,150,Europa,548,Eslovenia,1
-2010,150,Europa,517,España,1.170
+2010,150,Europa,517,España,1170
 2010,150,Europa,549,Estonia,3
 2010,150,Europa,512,Finlandia,40
 2010,150,Europa,505,Francia,856
@@ -751,38 +751,38 @@ year,id_continent,continent,id_country,country,number_visas
 2011,9,Oceanía,406,Australia,262
 2011,9,Oceanía,401,Fiji,2
 2011,9,Oceanía,405,Nueva Zelandia,99
-2011,19,América,224,Argentina,5.438
+2011,19,América,224,Argentina,5438
 2011,19,América,236,Belice,3
-2011,19,América,221,Bolivia,9.189
-2011,19,América,220,Brasil,1.949
+2011,19,América,221,Bolivia,9189
+2011,19,América,220,Brasil,1949
 2011,19,América,226,Canadá,387
-2011,19,América,202,Colombia,14.362
+2011,19,América,202,Colombia,14362
 2011,19,América,211,Costa Rica,159
 2011,19,América,209,Cuba,691
-2011,19,América,218,Ecuador,3.938
+2011,19,América,218,Ecuador,3938
 2011,19,América,213,El Salvador,185
-2011,19,América,225,Estados Unidos de América,3.425
+2011,19,América,225,Estados Unidos de América,3425
 2011,19,América,215,Guatemala,131
 2011,19,América,217,Guyana,1
-2011,19,América,208,Haití,1.188
+2011,19,América,208,Haití,1188
 2011,19,América,214,Honduras,118
 2011,19,América,205,Jamaica,1
-2011,19,América,216,México,1.051
+2011,19,América,216,México,1051
 2011,19,América,212,Nicaragua,102
 2011,19,América,210,Panamá,247
-2011,19,América,222,Paraguay,1.052
-2011,19,América,219,Perú,40.628
-2011,19,América,206,República Dominicana,1.956
+2011,19,América,222,Paraguay,1052
+2011,19,América,219,Perú,40628
+2011,19,América,206,República Dominicana,1956
 2011,19,América,241,Saint Kitts & Nevis,2
 2011,19,América,234,San Vicente y las Granadinas,1
 2011,19,América,203,Trinidad y Tobago,3
 2011,19,América,248,Turcas y Caicos,4
-2011,19,América,223,Uruguay,1.075
-2011,19,América,201,Venezuela,1.453
+2011,19,América,223,Uruguay,1075
+2011,19,América,201,Venezuela,1453
 2011,142,Asia,308,Afghanistán,3
 2011,142,Asia,540,Armenia,4
 2011,142,Asia,321,Bangladesh,7
-2011,142,Asia,336,China,2.295
+2011,142,Asia,336,China,2295
 2011,142,Asia,305,Chipre,2
 2011,142,Asia,334,Corea del Norte,13
 2011,142,Asia,333,Corea del Sur,558
@@ -820,7 +820,7 @@ year,id_continent,continent,id_country,country,number_visas
 2011,150,Europa,547,Croacia,18
 2011,150,Europa,507,Dinamarca,29
 2011,150,Europa,548,Eslovenia,12
-2011,150,Europa,517,España,1.508
+2011,150,Europa,517,España,1508
 2011,150,Europa,549,Estonia,4
 2011,150,Europa,512,Finlandia,41
 2011,150,Europa,505,Francia,862
@@ -871,39 +871,39 @@ year,id_continent,continent,id_country,country,number_visas
 2012,9,Oceanía,406,Australia,291
 2012,9,Oceanía,401,Fiji,1
 2012,9,Oceanía,405,Nueva Zelandia,83
-2012,19,América,224,Argentina,6.548
+2012,19,América,224,Argentina,6548
 2012,19,América,236,Belice,7
-2012,19,América,221,Bolivia,17.310
-2012,19,América,220,Brasil,2.426
+2012,19,América,221,Bolivia,17310
+2012,19,América,220,Brasil,2426
 2012,19,América,226,Canadá,461
-2012,19,América,202,Colombia,20.875
+2012,19,América,202,Colombia,20875
 2012,19,América,211,Costa Rica,168
 2012,19,América,209,Cuba,736
 2012,19,América,231,Dominica,1
-2012,19,América,218,Ecuador,4.679
+2012,19,América,218,Ecuador,4679
 2012,19,América,213,El Salvador,221
-2012,19,América,225,Estados Unidos de América,3.976
+2012,19,América,225,Estados Unidos de América,3976
 2012,19,América,215,Guatemala,210
 2012,19,América,217,Guyana,3
-2012,19,América,208,Haití,1.948
+2012,19,América,208,Haití,1948
 2012,19,América,214,Honduras,165
 2012,19,América,205,Jamaica,2
-2012,19,América,216,México,1.339
+2012,19,América,216,México,1339
 2012,19,América,212,Nicaragua,105
 2012,19,América,210,Panamá,197
-2012,19,América,222,Paraguay,1.286
-2012,19,América,219,Perú,49.643
+2012,19,América,222,Paraguay,1286
+2012,19,América,219,Perú,49643
 2012,19,América,251,Puerto Rico,1
-2012,19,América,206,República Dominicana,4.655
+2012,19,América,206,República Dominicana,4655
 2012,19,América,203,Trinidad y Tobago,5
-2012,19,América,223,Uruguay,1.186
-2012,19,América,201,Venezuela,1.760
+2012,19,América,223,Uruguay,1186
+2012,19,América,201,Venezuela,1760
 2012,142,Asia,308,Afghanistán,6
 2012,142,Asia,302,Arabia Saudita,2
 2012,142,Asia,540,Armenia,2
 2012,142,Asia,321,Bangladesh,6
 2012,142,Asia,315,Camboya,1
-2012,142,Asia,336,China,2.609
+2012,142,Asia,336,China,2609
 2012,142,Asia,334,Corea del Norte,10
 2012,142,Asia,333,Corea del Sur,442
 2012,142,Asia,335,Filipinas,58
@@ -941,10 +941,10 @@ year,id_continent,continent,id_country,country,number_visas
 2012,150,Europa,547,Croacia,29
 2012,150,Europa,507,Dinamarca,57
 2012,150,Europa,548,Eslovenia,9
-2012,150,Europa,517,España,2.989
+2012,150,Europa,517,España,2989
 2012,150,Europa,549,Estonia,3
 2012,150,Europa,512,Finlandia,57
-2012,150,Europa,505,Francia,1.052
+2012,150,Europa,505,Francia,1052
 2012,150,Europa,520,Grecia,28
 2012,150,Europa,515,Holanda,159
 2012,150,Europa,530,Hungria,18
@@ -1002,41 +1002,41 @@ year,id_continent,continent,id_country,country,number_visas
 2013,9,Oceanía,416,Kiribati,4
 2013,9,Oceanía,405,Nueva Zelandia,70
 2013,9,Oceanía,403,Tonga (Isla Tonga),1
-2013,19,América,224,Argentina,7.436
+2013,19,América,224,Argentina,7436
 2013,19,América,236,Belice,2
-2013,19,América,221,Bolivia,30.611
-2013,19,América,220,Brasil,2.252
+2013,19,América,221,Bolivia,30611
+2013,19,América,220,Brasil,2252
 2013,19,América,226,Canadá,398
-2013,19,América,202,Colombia,30.138
+2013,19,América,202,Colombia,30138
 2013,19,América,211,Costa Rica,171
 2013,19,América,209,Cuba,740
-2013,19,América,218,Ecuador,4.992
+2013,19,América,218,Ecuador,4992
 2013,19,América,213,El Salvador,220
-2013,19,América,225,Estados Unidos de América,3.749
+2013,19,América,225,Estados Unidos de América,3749
 2013,19,América,215,Guatemala,202
 2013,19,América,217,Guyana,3
-2013,19,América,208,Haití,2.868
+2013,19,América,208,Haití,2868
 2013,19,América,214,Honduras,159
 2013,19,América,205,Jamaica,3
-2013,19,América,216,México,1.356
+2013,19,América,216,México,1356
 2013,19,América,212,Nicaragua,94
 2013,19,América,210,Panamá,171
-2013,19,América,222,Paraguay,1.331
-2013,19,América,219,Perú,48.517
+2013,19,América,222,Paraguay,1331
+2013,19,América,219,Perú,48517
 2013,19,América,251,Puerto Rico,1
-2013,19,América,206,República Dominicana,4.116
+2013,19,América,206,República Dominicana,4116
 2013,19,América,241,Saint Kitts & Nevis,1
 2013,19,América,234,San Vicente y las Granadinas,2
 2013,19,América,233,Santa Lucia y Islas Occidentales,1
 2013,19,América,203,Trinidad y Tobago,3
 2013,19,América,223,Uruguay,956
-2013,19,América,201,Venezuela,2.015
+2013,19,América,201,Venezuela,2015
 2013,142,Asia,308,Afghanistán,15
 2013,142,Asia,302,Arabia Saudita,2
 2013,142,Asia,541,Azerbaiyan,1
 2013,142,Asia,321,Bangladesh,2
 2013,142,Asia,315,Camboya,1
-2013,142,Asia,336,China,2.669
+2013,142,Asia,336,China,2669
 2013,142,Asia,305,Chipre,2
 2013,142,Asia,334,Corea del Norte,7
 2013,142,Asia,333,Corea del Sur,445
@@ -1077,10 +1077,10 @@ year,id_continent,continent,id_country,country,number_visas
 2013,150,Europa,547,Croacia,11
 2013,150,Europa,507,Dinamarca,55
 2013,150,Europa,548,Eslovenia,10
-2013,150,Europa,517,España,5.737
+2013,150,Europa,517,España,5737
 2013,150,Europa,549,Estonia,4
 2013,150,Europa,512,Finlandia,60
-2013,150,Europa,505,Francia,1.095
+2013,150,Europa,505,Francia,1095
 2013,150,Europa,520,Grecia,24
 2013,150,Europa,515,Holanda,145
 2013,150,Europa,530,Hungria,29
@@ -1134,42 +1134,42 @@ year,id_continent,continent,id_country,country,number_visas
 2014,9,Oceanía,406,Australia,244
 2014,9,Oceanía,405,Nueva Zelandia,68
 2014,9,Oceanía,403,Tonga (Isla Tonga),1
-2014,19,América,224,Argentina,8.326
+2014,19,América,224,Argentina,8326
 2014,19,América,207,Bahamas,5
 2014,19,América,236,Belice,9
-2014,19,América,221,Bolivia,34.978
-2014,19,América,220,Brasil,2.405
+2014,19,América,221,Bolivia,34978
+2014,19,América,220,Brasil,2405
 2014,19,América,226,Canadá,369
-2014,19,América,202,Colombia,33.939
+2014,19,América,202,Colombia,33939
 2014,19,América,211,Costa Rica,188
 2014,19,América,209,Cuba,948
 2014,19,América,231,Dominica,1
-2014,19,América,218,Ecuador,5.309
+2014,19,América,218,Ecuador,5309
 2014,19,América,213,El Salvador,182
-2014,19,América,225,Estados Unidos de América,3.796
+2014,19,América,225,Estados Unidos de América,3796
 2014,19,América,232,Granada,1
 2014,19,América,215,Guatemala,187
 2014,19,América,217,Guyana,3
-2014,19,América,208,Haití,4.407
+2014,19,América,208,Haití,4407
 2014,19,América,214,Honduras,184
 2014,19,América,205,Jamaica,6
-2014,19,América,216,México,1.458
+2014,19,América,216,México,1458
 2014,19,América,212,Nicaragua,87
 2014,19,América,210,Panamá,136
-2014,19,América,222,Paraguay,1.391
-2014,19,América,219,Perú,49.900
-2014,19,América,206,República Dominicana,3.603
+2014,19,América,222,Paraguay,1391
+2014,19,América,219,Perú,49900
+2014,19,América,206,República Dominicana,3603
 2014,19,América,241,Saint Kitts & Nevis,2
 2014,19,América,234,San Vicente y las Granadinas,1
 2014,19,América,233,Santa Lucia y Islas Occidentales,1
 2014,19,América,203,Trinidad y Tobago,7
 2014,19,América,223,Uruguay,957
-2014,19,América,201,Venezuela,3.557
+2014,19,América,201,Venezuela,3557
 2014,142,Asia,308,Afghanistán,4
 2014,142,Asia,540,Armenia,2
 2014,142,Asia,541,Azerbaiyan,2
 2014,142,Asia,321,Bangladesh,7
-2014,142,Asia,336,China,3.010
+2014,142,Asia,336,China,3010
 2014,142,Asia,305,Chipre,3
 2014,142,Asia,334,Corea del Norte,4
 2014,142,Asia,333,Corea del Sur,460
@@ -1210,10 +1210,10 @@ year,id_continent,continent,id_country,country,number_visas
 2014,150,Europa,547,Croacia,23
 2014,150,Europa,507,Dinamarca,60
 2014,150,Europa,548,Eslovenia,19
-2014,150,Europa,517,España,6.262
+2014,150,Europa,517,España,6262
 2014,150,Europa,549,Estonia,8
 2014,150,Europa,512,Finlandia,70
-2014,150,Europa,505,Francia,1.190
+2014,150,Europa,505,Francia,1190
 2014,150,Europa,520,Grecia,38
 2014,150,Europa,515,Holanda,170
 2014,150,Europa,530,Hungria,65
@@ -1272,41 +1272,41 @@ year,id_continent,continent,id_country,country,number_visas
 2015,9,Oceanía,401,Fiji,1
 2015,9,Oceanía,416,Kiribati,3
 2015,9,Oceanía,405,Nueva Zelandia,71
-2015,19,América,224,Argentina,9.605
+2015,19,América,224,Argentina,9605
 2015,19,América,207,Bahamas,5
 2015,19,América,236,Belice,10
-2015,19,América,221,Bolivia,39.126
-2015,19,América,220,Brasil,3.105
+2015,19,América,221,Bolivia,39126
+2015,19,América,220,Brasil,3105
 2015,19,América,226,Canadá,290
-2015,19,América,202,Colombia,44.535
+2015,19,América,202,Colombia,44535
 2015,19,América,211,Costa Rica,216
-2015,19,América,209,Cuba,1.559
-2015,19,América,218,Ecuador,6.374
+2015,19,América,209,Cuba,1559
+2015,19,América,218,Ecuador,6374
 2015,19,América,213,El Salvador,279
-2015,19,América,225,Estados Unidos de América,3.413
+2015,19,América,225,Estados Unidos de América,3413
 2015,19,América,232,Granada,2
 2015,19,América,215,Guatemala,162
-2015,19,América,208,Haití,10.071
+2015,19,América,208,Haití,10071
 2015,19,América,214,Honduras,201
 2015,19,América,205,Jamaica,6
-2015,19,América,216,México,1.607
+2015,19,América,216,México,1607
 2015,19,América,212,Nicaragua,103
 2015,19,América,210,Panamá,131
-2015,19,América,222,Paraguay,1.556
-2015,19,América,219,Perú,59.767
+2015,19,América,222,Paraguay,1556
+2015,19,América,219,Perú,59767
 2015,19,América,251,Puerto Rico,2
-2015,19,América,206,República Dominicana,3.517
+2015,19,América,206,República Dominicana,3517
 2015,19,América,241,Saint Kitts & Nevis,1
 2015,19,América,233,Santa Lucia y Islas Occidentales,2
 2015,19,América,235,Suriname,5
 2015,19,América,203,Trinidad y Tobago,5
-2015,19,América,223,Uruguay,1.072
-2015,19,América,201,Venezuela,9.730
+2015,19,América,223,Uruguay,1072
+2015,19,América,201,Venezuela,9730
 2015,142,Asia,308,Afghanistán,12
 2015,142,Asia,540,Armenia,2
 2015,142,Asia,541,Azerbaiyan,1
 2015,142,Asia,321,Bangladesh,11
-2015,142,Asia,336,China,3.583
+2015,142,Asia,336,China,3583
 2015,142,Asia,305,Chipre,5
 2015,142,Asia,334,Corea del Norte,1
 2015,142,Asia,333,Corea del Sur,661
@@ -1349,10 +1349,10 @@ year,id_continent,continent,id_country,country,number_visas
 2015,150,Europa,547,Croacia,28
 2015,150,Europa,507,Dinamarca,68
 2015,150,Europa,548,Eslovenia,14
-2015,150,Europa,517,España,6.313
+2015,150,Europa,517,España,6313
 2015,150,Europa,549,Estonia,10
 2015,150,Europa,512,Finlandia,32
-2015,150,Europa,505,Francia,1.339
+2015,150,Europa,505,Francia,1339
 2015,150,Europa,520,Grecia,49
 2015,150,Europa,515,Holanda,151
 2015,150,Europa,530,Hungria,27
@@ -1406,37 +1406,37 @@ year,id_continent,continent,id_country,country,number_visas
 2016,2,África,126,Túnez,12
 2016,9,Oceanía,406,Australia,154
 2016,9,Oceanía,405,Nueva Zelandia,50
-2016,19,América,224,Argentina,8.176
+2016,19,América,224,Argentina,8176
 2016,19,América,207,Bahamas,1
 2016,19,América,236,Belice,6
-2016,19,América,221,Bolivia,27.852
-2016,19,América,220,Brasil,3.276
+2016,19,América,221,Bolivia,27852
+2016,19,América,220,Brasil,3276
 2016,19,América,226,Canadá,249
-2016,19,América,202,Colombia,47.352
+2016,19,América,202,Colombia,47352
 2016,19,América,211,Costa Rica,155
-2016,19,América,209,Cuba,1.499
-2016,19,América,218,Ecuador,7.261
+2016,19,América,209,Cuba,1499
+2016,19,América,218,Ecuador,7261
 2016,19,América,213,El Salvador,259
-2016,19,América,225,Estados Unidos de América,2.673
+2016,19,América,225,Estados Unidos de América,2673
 2016,19,América,215,Guatemala,148
-2016,19,América,208,Haití,27.395
+2016,19,América,208,Haití,27395
 2016,19,América,214,Honduras,188
 2016,19,América,205,Jamaica,5
-2016,19,América,216,México,1.346
+2016,19,América,216,México,1346
 2016,19,América,212,Nicaragua,83
 2016,19,América,210,Panamá,132
-2016,19,América,222,Paraguay,1.422
-2016,19,América,219,Perú,53.624
+2016,19,América,222,Paraguay,1422
+2016,19,América,219,Perú,53624
 2016,19,América,251,Puerto Rico,1
-2016,19,América,206,República Dominicana,2.360
+2016,19,América,206,República Dominicana,2360
 2016,19,América,235,Suriname,4
 2016,19,América,203,Trinidad y Tobago,3
 2016,19,América,223,Uruguay,858
-2016,19,América,201,Venezuela,26.623
+2016,19,América,201,Venezuela,26623
 2016,142,Asia,308,Afghanistán,15
 2016,142,Asia,540,Armenia,4
 2016,142,Asia,321,Bangladesh,21
-2016,142,Asia,336,China,3.569
+2016,142,Asia,336,China,3569
 2016,142,Asia,305,Chipre,1
 2016,142,Asia,334,Corea del Norte,1
 2016,142,Asia,333,Corea del Sur,505
@@ -1478,10 +1478,10 @@ year,id_continent,continent,id_country,country,number_visas
 2016,150,Europa,547,Croacia,38
 2016,150,Europa,507,Dinamarca,38
 2016,150,Europa,548,Eslovenia,15
-2016,150,Europa,517,España,4.458
+2016,150,Europa,517,España,4458
 2016,150,Europa,549,Estonia,3
 2016,150,Europa,512,Finlandia,36
-2016,150,Europa,505,Francia,1.108
+2016,150,Europa,505,Francia,1108
 2016,150,Europa,520,Grecia,44
 2016,150,Europa,515,Holanda,101
 2016,150,Europa,530,Hungria,21
