@@ -7,11 +7,12 @@
 	<style>
 		body{margin:0; padding:3rem 10rem; font-family: Helvetica, Arial, sans-serif; line-height:1.618034;}
 		h3{max-width:60%;}
-		#graficos{padding:0; margin:4rem -10rem 2rem -10rem; background:silver; overflow: hidden;}
+		canvas{margin:0; padding:0; width:100%;}
+		#graficos{padding:0; margin:2rem -10rem 3rem -10rem; background:silver; overflow: hidden;}
 		@media (orientation:portrait){
 			body{padding:3rem;}
 			h3{max-width:100%;}
-			#graficos{padding:0; margin:4rem -3rem 2rem -3rem;background:silver; overflow: hidden;}
+			#graficos{padding:0; margin:2rem -3rem 3rem -3rem;background:silver; overflow: hidden;}
 		}
 	</style>
 	</head>
@@ -20,28 +21,37 @@
 
 		<h3>Desde el Gobierno se apunta a la inmigración como un factor que ha incidido en el aumento de las cifras del desempleo.</h3>
 
+		<h6>Noviembre, 2018</h6>
+
 		<h4>Según el Presidente Piñera, este año hay 700 mil migrantes más que el año recién pasado<sup><a href="#nota">1</a></sup>, lo que explicaría la razón de más gente buscando trabajo y justificaría la necesidad de "poner orden en la casa".</h4>
 
 		<p>En la misma línea, Fernando Arab, Subsecretario del Trabajo, indicó: "Si hace algunos años teníamos 400 mil inmigrantes en Chile, hoy día -según estadísticas del Ministerio del Interior-, esta cifra llega a 1.100.000 inmigrantes. (...) Ellos necesitan trabajar y producen presión sobre el mercado del trabajo".</p>
 
-		<p>Contra la línea del Gobierno, el sacerdote José Tomás Vicuña, Director Nacional del Servicio Jesuita a Migrantes, asegura que "hasta la fecha no hay ningún estudio en Chile que afirme que la migración ha provocado desempleo". Los estudios disponibles, según el economista Juan Bravo, indican que "no hay ningún impacto de la inmigración, sin embargo, esos estudios fueron hechos con cifras de antes de este aumento de la inmigración, por lo tanto, es algo que hay que estudiar".</p>
+		<p>Contra la línea del Gobierno, el sacerdote José Tomás Vicuña, Director Nacional del <a href="http://www.sjmchile.org/">Servicio Jesuita a Migrantes</a>, asegura que "hasta la fecha no hay ningún estudio en Chile que afirme que la migración ha provocado desempleo". Los estudios disponibles, según el economista Juan Bravo, indican que "no hay ningún impacto de la inmigración, sin embargo, esos estudios fueron hechos con cifras de antes de este aumento de la inmigración, por lo tanto, es algo que hay que estudiar".</p>
 
 		<h3>Los datos</h3>
 
-		<p>Entre los datos públicos de <a href="https://es.datachile.io/geo/chile#demographics">demografía</a> publicados en <a href="https://es.datachile.io/">Datachile</a> (el esfuerzo más completo para integrar y visualizar los datos públicos de Chile) están <strong>las visas entregadas a inmigrantes que declararon domicilio en Chile desde el año 2005 hasta el 2016</strong>. Este dato de migración se ofrece desagregado por origen, en formatos PNG, JSON, CSV, XML; podemos explorar <a href="https://raw.githubusercontent.com/profesorfaco/infografia/gh-pages/intro-p5/datachile.csv">el formato CSV</a> considerando las visas entregadas en años mayores a 2009 para tener a la vista la situación de le década en curso.</p>
-		<p>Para contar con un datos más actuales, podríamos ir por el detalle de las Visas otorgadas período 2017 y el primer semestre 2018 en la página de <a href="http://www.extranjeria.gob.cl/estadisticas-migratorias/">estadísticas migratorias</a> publicadas por el Departamento de Extranjería y Migración.</p> 
-		<p>En una visualización de los datos de visas otorgadas entre los años 2010 y 2017, además de revisar totales, podríamos poner atención a los cambios en los grupos que hayan superado las 5000 visas entregadas en un año; en orden alfabético, estos grupos son: Argentina, Bolivia, Colombia, Ecuador, España, Haití, Perú, Venezuela.</p>
-		<p>Consideremos también a <a href="http://bancodatosene.ine.cl/">Datamart Empleo</a>, el Banco de datos de la Encuesta Nacional de Empleo, un sistema de información que registra datos desde el trimestre móvil enero-marzo de 2010, cuando entró en vigencia la actual Encuesta, hasta el último trimestre móvil publicado. Allí podemos seleccionar "principales indicadores (Tasas)", luego seleccionar "Tasa de desocupación" y configurar columna, fila y filtro, para obtener el resultado de la consulta en una tabla.</p>
+		<p>Entre los datos públicos de <a href="https://es.datachile.io/geo/chile#demographics">demografía</a> publicados en <a href="https://es.datachile.io/">Datachile</a> (el esfuerzo más completo para integrar y visualizar los datos públicos de Chile) están <strong>las visas entregadas a inmigrantes que declararon domicilio en Chile desde el año 2005 hasta el 2016</strong>. Este dato se ofrece desagregado por origen, en formatos PNG, JSON, CSV, XML; podemos explorar <a href="https://raw.githubusercontent.com/profesorfaco/infografia/gh-pages/intro-p5/datachile.csv">el formato CSV</a> considerando las visas entregadas en años mayores a 2009 para tener a la vista la situación de le década en curso.</p>
+		
+		<p>Para sumar datos más recientes, podríamos ir por el detalle de las Visas otorgadas período 2017 y el primer semestre 2018 en la página de <a href="http://www.extranjeria.gob.cl/estadisticas-migratorias/">estadísticas migratorias</a> publicadas por el Departamento de Extranjería y Migración.</p> 
+		
+		<p>En una visualización de los datos de visas otorgadas entre los años 2010 y 2017, además de revisar totales, podríamos poner atención a los cambios en los grupos de inmigrantes que hayan superado las 5000 visas entregadas en un año; en orden alfabético, estos grupos son: argentinos, bolivianos, colombianos, ecuatorianos, españoles, haitianos, peruanos, venezolanos.</p>
+		
+		<p>Para tomar la línea del gobierno, o la contraria, podríamos cruzar los datos de migración con los de <a href="http://bancodatosene.ine.cl/">Datamart Empleo</a>, el Banco de datos de la Encuesta Nacional de Empleo (un sistema de información que registra datos desde el trimestre móvil enero-marzo de 2010, cuando entró en vigencia la actual Encuesta, hasta el último trimestre móvil publicado). Allí podemos seleccionar "principales indicadores (Tasas)", luego seleccionar "Tasa de desocupación" y configurar columna, fila y filtro, para obtener el resultado de la consulta en una tabla.</p>
 
-		<div id="graficos"></div>
+		<p><strong>A continuación se grafica la variación de la cantidad de visas otorgadas anualmente a cada grupo, los totales de todas las visas entregadas (considerando todos los países de origen, no solamente los 8 grupos mencionados más arriba), y la variación de la tasa de desempleo en los mismos años.</strong></p>
 
-		<p><strong>Los datos aquí visualizados no servirían de evidencia al Gobierno: Una tendencia al alza en el total de visas entregadas no se ve acompañada por un alza en tasas de desempleo</strong>. Nótese, por ejemplo, que en el primer gobierno de Piñera (2010-2013) la entrega de visas aumentó en 184% mientras la desocupación bajó en 2,01%. Y en el segundo gobierno de Bachelet (2014-2017) la misma entrega aumentó un 154% (30% menos que en el gobierno anterior) mientras la desocupación subió en 0,31%.</p>
-		<p>Podría alegarse que falta considerar la inmigración no regularizada, pero volvamos a las palabras del Subsecretario del Trabajo, quien, apoyándose en las estadísticas del Ministerio del Interior, dice: "hace algunos años teníamos 400 mil inmigrantes en Chile". Esos años podrían corresponder a los del primer Gobierno de Piñera, donde las visas temporales entregadas sumaron 432 mil. Luego, cuando dice "hoy día esta cifra llega a 1.100.000 inmigrantes" queda por debajo de la suma de visas entregadas en el primero Gobierno de Piñera, las del segundo Gobierno de Bachelet y las del primer semestre 2018, que resultado en 1.425.000</p>
+		<figure id="graficos"></figure>
 
-		<p>Volvamos también sobre las palabras del Presidente Piñera, quien se refiere a "700 mil personas que antes no estaban", con lo que podría estar refiriéndose a las 804 mil visas entregadas en el gobierno anterior, lo que no ocurrió en un año, sino en cuatro. Tanto las cifras del Subsecretario del Trabajo como las del Presidente quedan por debajo de las cifras de inmigración regularizada; ello no deja espacio a la especulación sobre la inmigración no regularizada.</p>
+		<p><strong>La gráfica no serviría de evidencia al Gobierno: Una tendencia al alza en el total de visas entregadas no se ve acompañada por un alza en tasas de desempleo</strong>. Al contrario, en el primer gobierno de Piñera (2010-2013) la entrega de visas aumentó en 184% mientras la desocupación bajó en 2,01%, y en el segundo gobierno de Bachelet (2014-2017) la misma entrega aumentó un 154% (30% menos que en el gobierno anterior) mientras la desocupación subió en 0,31%.</p>
+		
+		<p>Podría especularse que falta considerar la inmigración no regularizada, pero volvamos a las palabras del Subsecretario del Trabajo, quien, apoyándose en las estadísticas del Ministerio del Interior, dice: "hace algunos años teníamos 400 mil inmigrantes en Chile". Esos años podrían corresponder a los del primer Gobierno de Piñera, donde las visas temporales entregadas sumaron 432 mil. Luego, cuando dice "hoy día esta cifra llega a 1.100.000 inmigrantes" queda por debajo de la suma de visas entregadas en el primer Gobierno de Piñera, las del segundo Gobierno de Bachelet y las del primer semestre de 2018, que dan por resultado 1.425.000</p>
+
+		<p>Volvamos también sobre las palabras del Presidente Piñera, quien se refiere a "700 mil personas que antes no estaban", con lo que podría estar refiriéndose a las 804 mil visas entregadas en el gobierno anterior, lo que no ocurrió en un año sino en cuatro.</p> 
+
+		<p>Las cifras del Subsecretario del Trabajo y las del Presidente quedan por debajo de las cifras de inmigración regularizada; ello no deja espacio a la especulación sobre la inmigración no regularizada.</p>
 
 		<p>Antes de cerrar, parece adecuado poner atención sobre la actividad que registra quien recibe una visa. Las cifras oficiales indican que entre las 188.639 visas entregadas durante el primer semestre del 2018, hay 19.201 para estudiantes (que incluye menores de edad), 6.063 para dueñas de casa y 4.166 para inactivos. Esto nos puede ayudar a establecer que no se puede considerar en los cálculos de tasa de empleabilidad al 100% de los inmigrantes (habría que descontar, a lo menos, un 15%).</p>
-
 
 
 		<small id="nota">1. Lo dicho por Piñera, según consigna la edición del 3 de noviembre de 2018 del diario La Tercera, fue: "…Pero ¿qué ha ocurrido el último año?, llegaron a Chile 700 mil personas que antes no estaban, que son los migrantes…".</small>
@@ -55,11 +65,9 @@
 			<li>Servicio Jesuita a Migrantes critica dichos de Piñera sobre aumento de desempleo con llegada de inmigrantes. (2018, November 03). Retrieved from https://www.latercera.com/nacional/noticia/servicio-jesuita-migrantes-critica-dichos-pinera-aumento-desempleo-llegada-inmigrantes/385227/</li>
 		</ul>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
 		<script>
-		var visas, desempleo, detalles;
+		var visas, desempleo;
 		var ar = 0, bo = 0, co = 0, ec = 0, es = 0, ht = 0, pe = 0, ve = 0, total10 = 0, total11 = 0, total12 = 0, total13 = 0, total14= 0, total15 = 0, total16 = 0;
-		var totalEstudiantes = 0, totalCasa = 0, totalInactivo = 0;
 		var arrayAR = [], arrayBO = [], arrayCO = [], arrayEC = [], arrayES = [], arrayHT = [], arrayPE = [], arrayVE = [], arrayTOTAL = [];
 		
 		function preload() { 
@@ -69,6 +77,7 @@
 		function setup() {
 			var canvas = createCanvas(windowWidth,1000);
 			canvas.parent('graficos');
+			noStroke();
 			console.log(visas);
 
 			for(var x = 0; x < visas.getRowCount(); x++){
@@ -110,26 +119,24 @@
 
 			}
 
-				var arrayTOTAL = [total10,total11,total12,total13,total14,total15,total16];
+			var arrayTOTAL = [total10,total11,total12,total13,total14,total15,total16];
 				
-				//Ahora agrego -a manos- las cifras de 2017
+			//Ahora agrego -a manos- las cifras de 2017 y primer semestre de 2018
 
-				arrayTOTAL.push(267596,188639);
-				arrayAR.push(6815,2867);
-				arrayBO.push(28391,15167);
-				arrayCO.push(39655,17393);
-				arrayEC.push(8214,4225);
-				arrayES.push(2149,839);
-				arrayHT.push(46236,58219);
-				arrayPE.push(41165,16617);
-				arrayVE.push(73386,60463);
+			arrayTOTAL.push(267596,188639);
+			arrayAR.push(6815,2867);
+			arrayBO.push(28391,15167);
+			arrayCO.push(39655,17393);
+			arrayEC.push(8214,4225);
+			arrayES.push(2149,839);
+			arrayHT.push(46236,58219);
+			arrayPE.push(41165,16617);
+			arrayVE.push(73386,60463);
 
-				//También agrego -a mano- los datos de tasa de desempleo
+			//También agrego -a mano- los datos de tasa de desempleo
 
-				var desempleo = [7.99, 7.08, 6.41, 5.98, 6.33, 6.23, 6.59, 6.64, 7.07];
+			var desempleo = [7.99, 7.08, 6.41, 5.98, 6.33, 6.23, 6.59, 6.64, 7.07];
 
-			noLoop();
-			noStroke();
 
 			textAlign(CENTER);
 			translate(width/12,100);
