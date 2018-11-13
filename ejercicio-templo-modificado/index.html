@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Primer templo Baha'i en Sudamérica</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <!-- INTRO -->
+    <section id="intro">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9 col-md-10 text-justify">
+                    <h1>Casa de Adoración Bahá'í de Sudamérica</h1>
+                    <h3>Ubicada en la precordillera de Los Andes, en Santiago de Chile, la Casa de Adoración Bahá’í de Sudamérica abre sus puertas el año 2016</h3>
+                    <p>Esta Casa de Adoración, sumándose a las <a href="#mundo" class="js-scroll-trigger">Casas de Adoración de los otros continentes</a>, es un punto de encuentro que promueve la unidad a través de una libre participación en actos de oración y servicio, en un ambiente sereno y desprovisto de rituales o ceremonias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sudamerica">
+        <div class="container-fluid bg-light my-5">
+            <div class="row">
+                <div class="col-md-6" id="sudamerica">
+                    <img src="img/mapa-sudamerica.svg">
+                </div>
+                <div class="col-md-6">
+                    <div class="p-5 text-center">
+                        <h3>La Fé Bahá'í</h3>
+                        <p>A nivel mundial, las estadísticas sobre la población total  Bahá’í varían según la fuente</p>
+                        <div id="grafico"></div>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                        <script>
+                            var x;
+                            if ($(window).width() >= 768) {
+                                x = 2.75;
+                            } else {
+                                x = 1.25;
+                            }
+
+                            console.log(x);
+
+                            var fieles = [{
+                                    pais: "Bolivia",
+                                    adherentes: 215359
+                                }, {
+                                    pais: "Vietnam",
+                                    adherentes: 388802
+                                }, {
+                                    pais: "Kenya",
+                                    adherentes: 422782
+                                }, {
+                                    pais: "EEUU",
+                                    adherentes: 512864
+                                }, {
+                                    pais: "India",
+                                    adherentes: 1897651
+                                }
+
+                            ]
+
+                            function setup() {
+                                var canvas = createCanvas(windowWidth / x, 300);
+                                canvas.parent('grafico');
+                                noLoop();
+                                noStroke();
+                            }
+
+                            function draw() {
+                                background(248, 249, 250);
+                                textAlign(CENTER);
+                                textFont('Times New Roman');
+                                for (var n = 0; n < fieles.length; n++) {
+                                    fill(255, 0, 0, 55);
+                                    ellipse(width / (fieles.length + 1) * (n + 1), height / 2, (fieles[n].adherentes / 25000), (fieles[n].adherentes / 25000));
+                                    fill(0);
+                                    text(fieles[n].pais, width / (fieles.length + 1) * (n + 1), height / 1.4)
+                                }
+                            }
+
+                            function windowResized() {
+                                resizeCanvas(windowWidth / x, 300);
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CHILE -->
+    <section id="historia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>La Religión Bahá'í en Chile</h2>
+                    <h3>Una breve cronología</h3>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/sita-1.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1919</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Martha Root cruza la cordillera de los Andes desde Mendoza a Santiago, sola en mula, con la misión de introducir la fe Bahá’í en Chile.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/iluminado.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1940</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Marcia Atwater, proveniente de Estados Unidos, se convierte en la primera pionera en establecerse permanentemente en Chile.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/iluminado.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1947</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Loncoche, en la Araucanía, comienza a perfilarse como un importante núcleo Bahá’í en Chile.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/iluminado.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1953</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Salvador y Adela Tormo llegan a la isla Robinson Crusoe, en el archipiélago de Juan Fernández, y Zunilda de Palacios a Chiloé.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/iluminado.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1986</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">La radio Bahá’í Chile comienza sus transmisiones en Labranza. Se trata de la primera emisora bilingüe, mapudungun y español, en el país.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/iluminado.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2016</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">El Templo es inaugurado, con la asistencia de 5000 personas de 110 países. Desde entonces, su diseño lo ha hecho merecedor de numerosos premios.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/iluminado.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <section id="templo" class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9 col-md-10 text-justify">
+                    <h1>El Templo en Chile</h1>
+                    <img src="img/mejorar.jpg" class="img-fluid">
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalUno">
+                        Launch demo modal
+                    </button>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDos">
+                        Launch demo modal
+                    </button>
+
+                    <div class="portfolio-modal modal fade" id="modalUno" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="close-modal" data-dismiss="modal">
+                                    <div class="lr">
+                                        <div class="rl"></div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-8 mx-auto">
+                                            <div class="modal-body">
+                                                <!-- Project Details Go Here -->
+                                                <h2 class="text-uppercase">Project Name</h2>
+                                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                                <ul class="list-inline">
+                                                    <li>Date: January 2017</li>
+                                                    <li>Client: Window</li>
+                                                    <li>Category: Photography</li>
+                                                </ul>
+                                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                                    <i class="fas fa-times"></i> Close Project</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="portfolio-modal modal fade" id="modalDos" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="close-modal" data-dismiss="modal">
+                                    <div class="lr">
+                                        <div class="rl"></div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-8 mx-auto">
+                                            <div class="modal-body">
+                                                <!-- Project Details Go Here -->
+                                                <h2 class="text-uppercase">Project Name</h2>
+                                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                                <ul class="list-inline">
+                                                    <li>Date: January 2017</li>
+                                                    <li>Client: Window</li>
+                                                    <li>Category: Photography</li>
+                                                </ul>
+                                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                                    <i class="fas fa-times"></i> Close Project</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MUNDO -->
+    <section id="mundo">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9 col-md-10 py-5">
+                    <h2 class="text-center">Casa de Adoración Bahá'í en el mundo</h2>
+                    <h3 class="text-justify">En el mundo se han construido 9 templos madre o continentales que comparten tres elementos esenciales: todos tienen nueve lados o puertas, un domo circular y nueve jardines.</h3>
+                    <p>La comunidad bahá’í ofrece este espacio como una contribución concreta al continuo desarrollo de nuestra sociedad, un lugar abierto a todos, que promueve el afecto cordial y los vínculos de unidad, respondiendo al llamado realizado por Bahá’u’lláh, Fundador de la Fe Bahá’í</p>
+                    <blockquote>"Construid en todos los países casas de adoración en nombre de Quien es el Señor de todas las religiones… Entonces, celebrad allí, con júbilo y alegría, la alabanza de vuestro Señor, el Más Compasivo."</blockquote>
+                </div>
+            </div>
+
+            <svg x="0px" y="0px" viewBox="0 0 1850 830" id="mapamundi" xml:space="preserve">
+                <g id="sudamerica">
+                    <circle class="amarillo" cx="570" cy="660" r="25" />
+                    <text x="570" y="670" text-anchor="middle">9</text>
+                </g>
+                <g id="centroamerica">
+                    <circle class="azul" cx="540" cy="470" r="25" />
+                    <text x="540" y="480" text-anchor="middle">6</text>
+                </g>
+                <g id="norteamerica">
+                    <circle class="azul" cx="505" cy="300" r="25" />
+                    <text x="505" y="310" text-anchor="middle">2</text>
+                </g>
+                <g id="europa">
+                    <circle class="azul" cx="960" cy="320" r="25" />
+                    <text x="960" y="330" text-anchor="middle">4</text>
+                </g>
+                <g id="africa">
+                    <circle class="azul" cx="1010" cy="490" r="25" />
+                    <text x="1010" y="500" text-anchor="middle">3</text>
+                </g>
+                <g id="india">
+                    <circle class="azul" cx="1200" cy="380" r="25" />
+                    <text x="1200" y="390" text-anchor="middle">8</text>
+                </g>
+                <g id="asia">
+                    <circle class="gris" cx="1145" cy="310" r="25" />
+                    <text x="1145" y="320" text-anchor="middle">1</text>
+                </g>
+                <g id="australia">
+                    <circle class="azul" cx="1500" cy="650" r="25" />
+                    <text x="1500" y="660" text-anchor="middle">5</text>
+                </g>
+                <g id="pacificas">
+                    <circle class="azul" cx="1670" cy="555" r="25" />
+                    <text x="1670" y="565" text-anchor="middle">7</text>
+                </g>
+                <g id="tierra-santa">
+                    <circle class="rojo" cx="1020" cy="380" r="10" />
+                </g>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span class="gris">1</span> Asia*</h4>
+                    <p>Ashgabat, Turkmenistán</p>
+                    <img class="img-fluid" src="img/casa-1.png" alt="">
+                    <p>Después que un terremoto lo debilitara, se demolió y convirtió en parque público</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span>2</span> Norteamérica</h4>
+                    <p>Willmete/ Illinois, EE.UU.</p>
+                    <img class="img-fluid" src="img/casa-2.png" alt="">
+                    <p>Ha recibido numerosos premios de diseño y es un hito destacado en la zona</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span>3</span> África</h4>
+                    <p>Kampala, Uganda</p>
+                    <img class="img-fluid" src="img/casa-3.png" alt="">
+                    <p>Su diseño representa una choza tradicional africana</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span>4</span> Europa</h4>
+                    <p>Frankfurt, Alemania</p>
+                    <img class="img-fluid" src="img/casa-4.png" alt="">
+                    <p>Su diseño fue resultado de un concurso y se declaró monumento cultural por el Estado</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span>5</span> Australia</h4>
+                    <p>Sydney, Australia</p>
+                    <img class="img-fluid" src="img/casa-5.png" alt="">
+                    <p>Se distingue por su uso innovador del cuarzo y su linterna en la parte superior de la cúpula</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span>6</span> Centroamérica</h4>
+                    <p>San Miguelito, Panamá</p>
+                    <img class="img-fluid" src="img/casa-6.png" alt="">
+                    <p>Su arquitectura está influida por el diseño repetitivo de las telas nativas americanas</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span>7</span> Islas Pacíficas</h4>
+                    <p>Tiapapata, Samoa</p>
+                    <img class="img-fluid" src="img/casa-7.png" alt="">
+                    <p>Su principal inspiración es el paisaje tropical de Samoa y sus chozas tradicionales</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span>8</span> Este de Asia</h4>
+                    <p>Delhi, India</p>
+                    <img class="img-fluid" src="img/casa-8.png" alt="">
+                    <p>Es una de las atracciones turísticas más populares a nivel mundial</p>
+                </div>
+                <!--/\/\/\/\/\/\/\/\/\/\/\/\-->
+                <div class="col-md-4 col-sm-6 casa">
+                    <h4><span class="naranjita">9</span> Sudamérica</h4>
+                    <p>Santiago, Chile</p>
+                    <img class="img-fluid" src="img/casa-9.png" alt="">
+                    <p>Su diseño está inspirado en una moraleja de Baha'u'llah </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <small>Copyright &copy; Your Website 2018</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
